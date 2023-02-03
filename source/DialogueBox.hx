@@ -39,6 +39,7 @@ class DialogueBox extends FlxSpriteGroup
 	{
 		super();
 
+		//Background music
 		switch (PlayState.SONG.song.toLowerCase())
 		{
 			case 'senpai':
@@ -49,11 +50,13 @@ class DialogueBox extends FlxSpriteGroup
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 		}
 
+		//Background fade
 		bgFade = new FlxSprite(-200, -200).makeGraphic(Std.int(FlxG.width * 1.3), Std.int(FlxG.height * 1.3), 0xFFB3DFd8);
 		bgFade.scrollFactor.set();
 		bgFade.alpha = 0;
 		add(bgFade);
 
+		//Background fade animation
 		new FlxTimer().start(0.83, function(tmr:FlxTimer)
 		{
 			bgFade.alpha += (1 / 5) * 0.7;
@@ -61,8 +64,10 @@ class DialogueBox extends FlxSpriteGroup
 				bgFade.alpha = 0.7;
 		}, 5);
 
+		//??
 		box = new FlxSprite(-20, 45);
 		
+		//Check if have dialogue
 		var hasDialog = false;
 		switch (PlayState.SONG.song.toLowerCase())
 		{
@@ -95,6 +100,7 @@ class DialogueBox extends FlxSpriteGroup
 		if (!hasDialog)
 			return;
 		
+		//Set left protrait
 		portraitLeft = new FlxSprite(-20, 40);
 		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
 		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
@@ -104,6 +110,7 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitLeft);
 		portraitLeft.visible = false;
 
+		//Set right protrait
 		portraitRight = new FlxSprite(0, 40);
 		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
 		portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
@@ -112,6 +119,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitRight.scrollFactor.set();
 		add(portraitRight);
 		portraitRight.visible = false;
+		
 		
 		box.animation.play('normalOpen');
 		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
@@ -182,8 +190,10 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			if (dialogueEnded)
 			{
+				//If last dialogue
 				if (dialogueList[1] == null && dialogueList[0] != null)
 				{
+					//if not ended, end it
 					if (!isEnding)
 					{
 						isEnding = true;
@@ -212,6 +222,7 @@ class DialogueBox extends FlxSpriteGroup
 				}
 				else
 				{
+					//not last dialogue, remove the current one and start the next one
 					dialogueList.remove(dialogueList[0]);
 					startDialogue();
 					FlxG.sound.play(Paths.sound('clickText'), 0.8);
