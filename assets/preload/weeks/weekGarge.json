@@ -1,0 +1,57 @@
+{
+  "songs": [
+    [
+      "Alley Conflict",
+      "gk",
+      [
+        185,
+        218,
+        214
+      ]
+    ],
+    [
+      "Misunderstand",
+      "gk",
+      [
+        185,
+        218,
+        214
+      ]
+    ],
+    [
+      "Uchoten",
+      "gk",
+      [
+        185,
+        218,
+        214
+      ]
+    ],
+    [
+      "Ramune",
+      "gk",
+      [
+        185,
+        218,
+        214
+      ]
+    ]
+  ],
+  "hideFreeplay": false,
+  "weekBackground": "gk",
+  "weekCharacters": [
+    "tankman",
+    "bf",
+    "gf"
+  ],
+  "storyName": "Garge",
+  "weekName": "Week Garge",
+  "freeplayColor": [
+    146,
+    113,
+    253
+  ],
+  "hideStoryMode": false,
+  "weekBefore": "tutorial",
+  "startUnlocked": true
+}

@@ -226,7 +226,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
 
-		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
+		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
 		bgFade.alpha = 0;
@@ -347,7 +347,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				bgFade.alpha = 0.5;
 
 			// If accept pressed
-			if (PlayerSettings.player1.controls.ACCEPT)
+			if (!PlayState.isLockDialogue && PlayerSettings.player1.controls.ACCEPT)
 			{
 				// If the current dialogue still going
 				if (!finishedText)
@@ -541,6 +541,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				kill();
 			}
 		}
+
+		#if debug
+		if (FlxG.keys.justPressed.P)
+		{
+			finishThing();
+			kill();
+		}
+		#end
+
 		super.update(elapsed);
 	}
 
