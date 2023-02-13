@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer2.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer20000" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20001" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20002" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20003" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20004" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20005" x="100" y="100" width="4500" height="2000"/>
+	<SubTexture name="Layer20006" x="100" y="2200" width="4500" height="2000"/>
+	<SubTexture name="Layer20007" x="100" y="2200" width="4500" height="2000"/>
+	<SubTexture name="Layer20008" x="100" y="2200" width="4500" height="2000"/>
+	<SubTexture name="Layer20009" x="100" y="4300" width="4500" height="2000"/>
+	<SubTexture name="Layer20010" x="100" y="4300" width="4500" height="2000"/>
+	<SubTexture name="Layer20011" x="100" y="4300" width="4500" height="2000"/>
+</TextureAtlas>

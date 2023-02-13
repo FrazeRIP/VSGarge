@@ -4837,10 +4837,10 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "dad",
+		"player2": "gk",
 		"player3": null,
 		"song": "Misundstand",
-		"stage": "stage",
+		"stage": "dusk",
 		"needsVoices": true,
 		"validScore": true,
 		"bpm": 170,

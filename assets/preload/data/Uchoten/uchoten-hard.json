@@ -6545,7 +6545,7 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "dad",
+		"player2": "gk",
 		"player3": null,
 		"isHey": false,
 		"cutsceneType": "none",
@@ -6558,7 +6558,7 @@
 		"events": [],
 		"gfVersion": "gf",
 		"uiType": "normal",
-		"stage": "stage",
+		"stage": "evening",
 		"sections": 0,
 		"needsVoices": true,
 		"gf": "gf",

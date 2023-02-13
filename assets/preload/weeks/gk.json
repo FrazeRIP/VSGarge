@@ -1,0 +1,59 @@
+{
+	"storyName": "garge",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "gk",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Alley-conflict",
+			"gk",
+			[
+				126,
+				193,
+				255
+			]
+		],
+		[
+			"Misundstand",
+			"gk",
+			[
+				186,
+				113,
+				115
+			]
+		],
+		[
+			"Uchoten",
+			"gk",
+			[
+				146,
+				53,
+				175
+			]
+		],
+		[
+			"Ramune",
+			"gk",
+			[
+				86,
+				73,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "gk"
+}

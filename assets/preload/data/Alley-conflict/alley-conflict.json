@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "dad",
+		"player2": "gk",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -3898,7 +3898,7 @@
 		"song": "Alley Conflict",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "stage",
+		"stage": "noon",
 		"speed": 2.8,
 		"bpm": 150
 	}

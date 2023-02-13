@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Neliman-Final-Showdown",
+			"gk-player",
+			[
+				135,
+				55,
+				75
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "nlm",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "neliman",
+	"weekName": "neliman",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

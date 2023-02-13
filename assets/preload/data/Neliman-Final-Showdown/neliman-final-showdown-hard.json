@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "dad",
+		"player2": "gk",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -5108,7 +5108,7 @@
 		"song": "Neliman Final Showdown",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "stage",
+		"stage": "evening",
 		"speed": 3.2,
 		"bpm": 175
 	}
