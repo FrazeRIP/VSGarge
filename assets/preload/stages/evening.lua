@@ -19,16 +19,16 @@ local del2 = 0;
 
 function onCreate()
 
-makeLuaSprite('A', 'stage/evening/Layer8', -1500, -500);
-	scaleObject('A', 1, 1);
+makeLuaSprite('A', 'stage/evening/Layer8', -1800, -500);
+	scaleObject('A', 0.7, 0.7);
 	setScrollFactor('A', 0.7, 1);
 	
-	makeLuaSprite('B', 'stage/evening/Layer7', -1700, -700);
-	scaleObject('B', 1.2, 1.2);
+	makeLuaSprite('B', 'stage/evening/Layer7', -1500, -250);
+	scaleObject('B', 0.7, 0.7);
 	setScrollFactor('B', 0.8, 1);
 
-	makeLuaSprite('C', 'stage/evening/Layer6', -1700, -700);
-	scaleObject('C', 1.2, 1.2);
+	makeLuaSprite('C', 'stage/evening/Layer6', -1500, -250);
+	scaleObject('C', 0.6, 0.7);
 	setScrollFactor('C', 0.9, 1);
 	
 	makeLuaSprite('D', 'stage/evening/Layer5', -2300, -500);
@@ -43,21 +43,37 @@ makeLuaSprite('A', 'stage/evening/Layer8', -1500, -500);
 	scaleObject('F', 1, 1);
 	setScrollFactor('F', 0.95, 1)
 
-	makeLuaSprite('G', 'stage/evening/Layer2', -2400, -500)
-	scaleObject('G', 1, 1);
-	setScrollFactor('G', 1, 1)
-
 	makeAnimatedLuaSprite('G', 'stage/evening/Layer2', -2400, -500);
 	scaleObject('G', 1, 1);
-	addAnimationByPrefix('G', 'Layer2', 'Layer2', 24, true)
+	addAnimationByPrefix('G', 'Layer2', 'Layer2', 30, true)
 	objectPlayAnimation('G', 'Layer2', true);
 
 	makeLuaSprite('I', 'stage/evening/Layer1', -1500, -500)
 	scaleObject('I', 1, 1);
-	setScrollFactor('I', 1.05, 1)
+	setScrollFactor('I', 1.005, 1)
+	
+	makeAnimatedLuaSprite('pk', 'stage/evening/Guest/pk', -1050, 50);
+	addAnimationByPrefix('pk','PkIdle','PkIdle',24,true);	
+	scaleObject('pk', 1, 1);
+	setScrollFactor('pk', 1, 1)
 
-	makeLuaSprite('H', 'stage/evening/Layer0', -2000, -300)
-	scaleObject('H', 1, 1);
+	makeAnimatedLuaSprite('ab', 'stage/evening/Guest/ab', -450, -50);
+	addAnimationByPrefix('ab','AbIdle','AbIdle',22,true);	
+	scaleObject('ab', 1.1, 1.1);
+	setScrollFactor('ab', 1, 1)
+
+	makeAnimatedLuaSprite('de', 'stage/evening/Guest/de', 150, -50);
+	addAnimationByPrefix('de','DeIdle','DeIdle',22,true);	
+	scaleObject('de', 1.1, 1.1);
+	setScrollFactor('de', 1, 1)
+
+	makeAnimatedLuaSprite('ec', 'stage/evening/Guest/ec', 800, -50);
+	addAnimationByPrefix('ec','EcIdle','EcIdle',22,true);	
+	scaleObject('ec', 1.1, 1.1);
+	setScrollFactor('ec', 1, 1)
+
+	makeLuaSprite('H', 'stage/evening/Layer0', -1500, -400)
+	scaleObject('H', 1.1, 1.1);
 	setScrollFactor('H', 1, 1)
 
 	addLuaSprite('A', false)
@@ -68,6 +84,10 @@ makeLuaSprite('A', 'stage/evening/Layer8', -1500, -500);
 	addLuaSprite('F', false)
 	addLuaSprite('G', false)
 	addLuaSprite('I', false)
+	addLuaSprite('pk', false);
+	addLuaSprite('ab', false);
+	addLuaSprite('de', false);
+	addLuaSprite('ec', false);
 	addLuaSprite('H', true)
 
 end

@@ -1,8 +1,8 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "BF_dusk",
 		"events": [],
-		"gfVersion": "gf",
+		"gfVersion": "GF_dusk",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -4809,7 +4809,7 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "gk",
+		"player2": "GK_dusk",
 		"player3": null,
 		"song": "Misundstand",
 		"stage": "dusk",

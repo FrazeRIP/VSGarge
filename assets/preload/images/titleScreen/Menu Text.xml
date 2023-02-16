@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu Text.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Credits Open0000" x="100" y="100" width="688" height="739"/>
+	<SubTexture name="Credits Open0001" x="888" y="100" width="688" height="739"/>
+	<SubTexture name="Credits Open0002" x="1676" y="100" width="688" height="739"/>
+	<SubTexture name="Credits Open0003" x="2464" y="100" width="688" height="739"/>
+	<SubTexture name="Credits Open0004" x="3252" y="100" width="688" height="739"/>
+	<SubTexture name="Freeplay Open0000" x="100" y="939" width="688" height="739"/>
+	<SubTexture name="Freeplay Open0001" x="888" y="939" width="688" height="739"/>
+	<SubTexture name="Freeplay Open0002" x="1676" y="939" width="688" height="739"/>
+	<SubTexture name="Freeplay Open0003" x="2464" y="939" width="688" height="739"/>
+	<SubTexture name="Freeplay Open0004" x="3252" y="2617" width="688" height="739"/>
+	<SubTexture name="Options Open0000" x="3252" y="939" width="688" height="739"/>
+	<SubTexture name="Options Open0001" x="100" y="1778" width="688" height="739"/>
+	<SubTexture name="Options Open0002" x="888" y="1778" width="688" height="739"/>
+	<SubTexture name="Options Open0003" x="1676" y="1778" width="688" height="739"/>
+	<SubTexture name="Options Open0004" x="2464" y="1778" width="688" height="739"/>
+	<SubTexture name="Storyode Open0000" x="3252" y="1778" width="688" height="739"/>
+	<SubTexture name="Storyode Open0001" x="100" y="2617" width="688" height="739"/>
+	<SubTexture name="Storyode Open0002" x="888" y="2617" width="688" height="739"/>
+	<SubTexture name="Storyode Open0003" x="1676" y="2617" width="688" height="739"/>
+	<SubTexture name="Storyode Open0004" x="2464" y="2617" width="688" height="739"/>
+	<SubTexture name="credits0000" x="3252" y="100" width="688" height="739"/>
+	<SubTexture name="freeplay0000" x="3252" y="2617" width="688" height="739"/>
+	<SubTexture name="options0000" x="2464" y="1778" width="688" height="739"/>
+	<SubTexture name="storymode0000" x="2464" y="2617" width="688" height="739"/>
+</TextureAtlas>

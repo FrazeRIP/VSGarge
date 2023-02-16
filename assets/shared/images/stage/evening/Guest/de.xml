@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="de.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DeHey0000" x="100" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0001" x="519" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0002" x="938" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0003" x="1357" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0004" x="1776" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0005" x="2195" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0006" x="2614" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0007" x="3033" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0008" x="3452" y="100" width="319" height="722"/>
+	<SubTexture name="DeHey0009" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeHey0010" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeHey0011" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeHey0012" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeHey0013" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeHey0014" x="100" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0000" x="519" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0001" x="938" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0002" x="1357" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0003" x="1776" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0004" x="2195" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0005" x="2614" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0006" x="3033" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0007" x="3452" y="922" width="319" height="722"/>
+	<SubTexture name="DeIdle0008" x="100" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0009" x="519" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0010" x="519" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0011" x="519" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0012" x="519" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0013" x="519" y="1744" width="319" height="722"/>
+	<SubTexture name="DeIdle0014" x="519" y="1744" width="319" height="722"/>
+</TextureAtlas>

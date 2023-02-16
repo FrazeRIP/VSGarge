@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="客串.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="guest0000" x="100" y="100" width="2290" height="499"/>
+	<SubTexture name="guest0001" x="100" y="100" width="2290" height="499"/>
+	<SubTexture name="guest0002" x="100" y="699" width="2290" height="499"/>
+	<SubTexture name="guest0003" x="100" y="699" width="2290" height="499"/>
+	<SubTexture name="guest0004" x="100" y="1298" width="2290" height="499"/>
+	<SubTexture name="guest0005" x="100" y="1897" width="2290" height="499"/>
+	<SubTexture name="guest0006" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0007" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0008" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0009" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0010" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0011" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0012" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0013" x="100" y="2496" width="2290" height="499"/>
+	<SubTexture name="guest0014" x="100" y="2496" width="2290" height="499"/>
+</TextureAtlas>

@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"player2": "gk",
+		"player1": "BF_night",
+		"player2": "GK_night",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -4813,13 +4813,13 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "GF_night",
 		"events": [],
 		"player3": null,
 		"song": "Ramune",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "evening",
+		"stage": "night",
 		"speed": 2.7,
 		"bpm": 140
 	}

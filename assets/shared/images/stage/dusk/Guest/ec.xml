@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ec.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EcHey0000" x="100" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0001" x="561" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0002" x="1022" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0003" x="1483" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0004" x="1944" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0005" x="2405" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0006" x="2866" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0007" x="3327" y="100" width="361" height="722"/>
+	<SubTexture name="EcHey0008" x="100" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0009" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0010" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0011" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0012" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0013" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcHey0014" x="561" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0000" x="1022" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0001" x="1483" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0002" x="1944" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0003" x="2405" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0004" x="2866" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0005" x="3327" y="922" width="361" height="722"/>
+	<SubTexture name="EcIdle0006" x="100" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0007" x="561" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0008" x="1022" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0009" x="1483" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0010" x="1483" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0011" x="1483" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0012" x="1483" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0013" x="1483" y="1744" width="361" height="722"/>
+	<SubTexture name="EcIdle0014" x="1483" y="1744" width="361" height="722"/>
+</TextureAtlas>

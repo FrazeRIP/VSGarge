@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BgDanceTitle.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BgDanceTitle0000" x="100" y="100" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0001" x="766" y="100" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0002" x="100" y="748" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0003" x="766" y="748" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0004" x="100" y="1396" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0005" x="766" y="1396" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0006" x="100" y="2044" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0007" x="766" y="2044" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0008" x="100" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0009" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0010" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0011" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0012" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0013" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0014" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0015" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0016" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0017" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0018" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0019" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0020" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0021" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0022" x="766" y="2692" width="566" height="548"/>
+	<SubTexture name="BgDanceTitle0023" x="766" y="2692" width="566" height="548"/>
+</TextureAtlas>

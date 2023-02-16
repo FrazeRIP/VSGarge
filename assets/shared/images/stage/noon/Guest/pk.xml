@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pk.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PkHey0000" x="100" y="100" width="265" height="722"/>
+	<SubTexture name="PkHey0001" x="465" y="100" width="265" height="722"/>
+	<SubTexture name="PkHey0002" x="830" y="100" width="265" height="722"/>
+	<SubTexture name="PkHey0003" x="1195" y="100" width="265" height="722"/>
+	<SubTexture name="PkHey0004" x="1560" y="100" width="265" height="722"/>
+	<SubTexture name="PkHey0005" x="100" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0006" x="465" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0007" x="830" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0008" x="1195" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0009" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0010" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0011" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0012" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0013" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkHey0014" x="1560" y="922" width="265" height="722"/>
+	<SubTexture name="PkIdle0000" x="100" y="1744" width="265" height="722"/>
+	<SubTexture name="PkIdle0001" x="465" y="1744" width="265" height="722"/>
+	<SubTexture name="PkIdle0002" x="830" y="1744" width="265" height="722"/>
+	<SubTexture name="PkIdle0003" x="1195" y="1744" width="265" height="722"/>
+	<SubTexture name="PkIdle0004" x="1560" y="1744" width="265" height="722"/>
+	<SubTexture name="PkIdle0005" x="100" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0006" x="465" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0007" x="830" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0008" x="1195" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0009" x="1560" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0010" x="1560" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0011" x="1560" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0012" x="1560" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0013" x="1560" y="2566" width="265" height="722"/>
+	<SubTexture name="PkIdle0014" x="1560" y="2566" width="265" height="722"/>
+</TextureAtlas>

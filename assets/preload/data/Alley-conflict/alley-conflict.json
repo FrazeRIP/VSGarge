@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"player2": "gk",
+		"player1": "BF_noon",
+		"player2": "GK_noon",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -3892,7 +3892,7 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "GF_noon",
 		"events": [],
 		"player3": null,
 		"song": "Alley Conflict",

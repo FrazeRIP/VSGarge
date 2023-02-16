@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"player2": "gk",
+		"player1": "BF_neliman",
+		"player2": "GK_player",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -5102,13 +5102,13 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "GF_neliman",
 		"events": [],
 		"player3": null,
 		"song": "Neliman Final Showdown",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "evening",
+		"stage": "neliman",
 		"speed": 2.9,
 		"bpm": 175
 	}
