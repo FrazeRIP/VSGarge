@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Menu Text.png">
+<TextureAtlas imagePath="MenuText.png">
 	<!-- Created with Adobe Animate version 16.5.1.104 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Credits Open0000" x="100" y="100" width="688" height="739"/>
