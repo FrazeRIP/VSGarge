@@ -340,10 +340,9 @@ class PlayState extends MusicBeatState
 	public static var lastScore:Array<FlxSprite> = [];
 
 	//------------------------------------------------------------------------------------
-	//Custom shit kicks in!
-	//dialogue
+	// Custom shit kicks in!
+	// dialogue
 	public static var isLockDialogue:Bool = false;
-
 
 	//------------------------------------------------------------------------------------
 	override public function create()
@@ -412,6 +411,7 @@ class PlayState extends MusicBeatState
 		camOther = new FlxCamera();
 		camHUD.bgColor.alpha = 0;
 		camOther.bgColor.alpha = 0;
+		camDialogue.bgColor.alpha = 0;
 
 		FlxG.cameras.reset(camGame);
 		FlxG.cameras.add(camDialogue, false);
