@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="De_Dialogue.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="De_A0000" x="100" y="100" width="338" height="338"/>
+	<SubTexture name="De_B0000" x="538" y="100" width="338" height="338"/>
+	<SubTexture name="De_C0000" x="100" y="538" width="338" height="338"/>
+	<SubTexture name="De_D0000" x="538" y="538" width="338" height="338"/>
+	<SubTexture name="De_E0000" x="100" y="976" width="338" height="338"/>
+</TextureAtlas>

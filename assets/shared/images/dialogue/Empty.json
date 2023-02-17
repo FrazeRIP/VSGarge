@@ -1,0 +1,102 @@
+{
+	"position": [
+		9999999,
+		9999999
+	],
+	"dialogue_pos": "left",
+	"scale": 1.6,
+	"image": "Empty",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_A",
+			"idle_name": "Ab_A"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_B",
+			"idle_name": "Ab_B"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_C",
+			"idle_name": "Ab_C"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_D",
+			"idle_name": "Ab_D"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_E",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_E",
+			"idle_name": "Ab_E"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Ab_F",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Ab_F",
+			"idle_name": "Ab_F"
+		},
+		{
+			"loop_name": "Ab_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Ab_A",
+			"anim": "Empty",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

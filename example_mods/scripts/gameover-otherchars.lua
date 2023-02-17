@@ -37,8 +37,8 @@ function onCreate()
         --setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'gameover'); 
     end
 
-    if boyfriendName == 'gk_player' then
-        setPropertyFromClass('GameOverSubstate', 'characterName', 'gk_player');
+    if boyfriendName == 'GK_player' then
+        setPropertyFromClass('GameOverSubstate', 'characterName', 'GK_player');
         --setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'gameover'); 
     end
 

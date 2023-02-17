@@ -81,16 +81,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], // From 0% to 19%
-		['Shit', 0.4], // From 20% to 39%
-		['Bad', 0.5], // From 40% to 49%
-		['Bruh', 0.6], // From 50% to 59%
-		['Meh', 0.69], // From 60% to 68%
-		['Nice', 0.7], // 69%
-		['Good', 0.8], // From 70% to 79%
-		['Great', 0.9], // From 80% to 89%
-		['Sick!', 1], // From 90% to 99%
-		['Perfect!!', 1] // The value on this one isn't used actually, since Perfect is always "1"
+		['你好弱耶!', 0.2], // From 0% to 19%
+		['差劲！', 0.4], // From 20% to 39%
+		['坏！', 0.5], // From 40% to 49%
+		['啧啧啧...', 0.6], // From 50% to 59%
+		['嗯...', 0.69], // From 60% to 68%
+		['好！', 0.7], // 69%
+		['好棒！', 0.8], // From 70% to 79%
+		['超棒！', 0.9], // From 80% to 89%
+		['太酷了!', 1], // From 90% to 99%
+		['完美!!', 1] // The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	// event variables
@@ -220,6 +220,7 @@ class PlayState extends MusicBeatState
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
+	public var camDialogueBack:FlxCamera;
 	public var camDialogue:FlxCamera;
 	public var camHUD:FlxCamera;
 	public var camGame:FlxCamera;
@@ -406,14 +407,17 @@ class PlayState extends MusicBeatState
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
+		camDialogueBack = new FlxCamera();
 		camDialogue = new FlxCamera();
 		camHUD = new FlxCamera();
 		camOther = new FlxCamera();
 		camHUD.bgColor.alpha = 0;
 		camOther.bgColor.alpha = 0;
 		camDialogue.bgColor.alpha = 0;
+		camDialogueBack.bgColor.alpha = 0;
 
 		FlxG.cameras.reset(camGame);
+		FlxG.cameras.add(camDialogueBack, false);
 		FlxG.cameras.add(camDialogue, false);
 		FlxG.cameras.add(camHUD, false);
 		FlxG.cameras.add(camOther, false);
@@ -1144,34 +1148,43 @@ class PlayState extends MusicBeatState
 		FlxG.fixedTimestep = false;
 		moveCameraSection();
 
-		healthBarBG = new AttachedSprite('healthBar');
+		if (songName == 'uchoten' || songName == 'ramune')
+		{
+			healthBarBG = new AttachedSprite('healthBar_night');
+		}
+		else
+		{
+			healthBarBG = new AttachedSprite('healthBar');
+		}
+
 		healthBarBG.y = FlxG.height * 0.89;
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
 		healthBarBG.visible = !ClientPrefs.hideHud;
 		healthBarBG.xAdd = -4;
 		healthBarBG.yAdd = -4;
-		add(healthBarBG);
 		if (ClientPrefs.downScroll)
 			healthBarBG.y = 0.11 * FlxG.height;
 
-		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+		healthBar = new FlxBar(healthBarBG.x - 4, healthBarBG.y - 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, 2);
 		healthBar.scrollFactor.set();
+		healthBar.scale.x = healthBar.scale.x * .8;
 		// healthBar
 		healthBar.visible = !ClientPrefs.hideHud;
 		healthBar.alpha = ClientPrefs.healthBarAlpha;
 		add(healthBar);
+		add(healthBarBG);
 		healthBarBG.sprTracker = healthBar;
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
-		iconP1.y = healthBar.y - 75;
+		iconP1.y = healthBar.y - 70;
 		iconP1.visible = !ClientPrefs.hideHud;
 		iconP1.alpha = ClientPrefs.healthBarAlpha;
 		add(iconP1);
 
 		iconP2 = new HealthIcon(dad.healthIcon, false);
-		iconP2.y = healthBar.y - 75;
+		iconP2.y = healthBar.y - 70;
 		iconP2.visible = !ClientPrefs.hideHud;
 		iconP2.alpha = ClientPrefs.healthBarAlpha;
 		add(iconP2);
@@ -1714,8 +1727,9 @@ class PlayState extends MusicBeatState
 			}
 			psychDialogue.nextDialogueThing = startNextDialogue;
 			psychDialogue.skipDialogueThing = skipDialogue;
-			psychDialogue.cameras = [camHUD];
+			psychDialogue.camera = camDialogue;
 			add(psychDialogue);
+			camDialogue.alpha = 0;
 		}
 		else
 		{
@@ -2381,11 +2395,11 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
-		scoreTxt.text = 'Score: '
+		scoreTxt.text = '得分: '
 			+ songScore
-			+ ' | Misses: '
+			+ ' | 失误: '
 			+ songMisses
-			+ ' | Rating: '
+			+ ' | 评分: '
 			+ ratingName
 			+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
@@ -5003,6 +5017,11 @@ class PlayState extends MusicBeatState
 			note.isSustainNote
 		]);
 
+		if (!note.noteSplashDisabled && !note.isSustainNote)
+		{
+			spawnNoteSplashOnNote(note);
+		}
+
 		if (!note.isSustainNote)
 		{
 			note.kill();
@@ -5137,10 +5156,21 @@ class PlayState extends MusicBeatState
 	{
 		if (ClientPrefs.noteSplashes && note != null)
 		{
-			var strum:StrumNote = playerStrums.members[note.noteData];
-			if (strum != null)
+			if (note.hitByOpponent)
 			{
-				spawnNoteSplash(strum.x, strum.y, note.noteData, note);
+				var strum:StrumNote = opponentStrums.members[note.noteData];
+				if (strum != null)
+				{
+					spawnNoteSplash(strum.x, strum.y, note.noteData, note);
+				}
+			}
+			else
+			{
+				var strum:StrumNote = playerStrums.members[note.noteData];
+				if (strum != null)
+				{
+					spawnNoteSplash(strum.x, strum.y, note.noteData, note);
+				}
 			}
 		}
 	}

@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		180,
+		80
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"loop_name": "Gk2_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_A",
+			"anim": "Gk2_A",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk2_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_B",
+			"anim": "Gk2_B",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk2_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_C",
+			"anim": "Gk2_C",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk2_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_D",
+			"anim": "Gk2_D",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk2_E",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_E",
+			"anim": "Gk2_E",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk2_F",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk2_F",
+			"anim": "Gk2_F",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Gk2_Dialogue"
+}

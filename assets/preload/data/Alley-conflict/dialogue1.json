@@ -1,0 +1,316 @@
+{
+    "dialogue": [
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_I",
+        "text": "今天天气真不错呢~~！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "boxState": "normal",
+        "portrait": "Gf_Dialogue",
+        "expression": "Gf_G",
+        "text": "是啊！不过大街上怎么没有人呢？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_H",
+        "text": "欸，好像确实是耶。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_D",
+        "text": "好可惜，天气明明那么好..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_C",
+        "text": "嗯？新闻？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": "大家早上好！最近拉普尼市多次发生抢劫，恶意伤人等事件。\n据调查，犯罪的人是一个五人团体，也请大家这段时间不要出门，保护好自己。\n那么，接下来——"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_B",
+        "text": "....怪不得！！\n等一下，那边的巷子里是不是有人？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_E",
+        "text": "去看一看吧？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_A",
+        "text": ".....这样啊？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_A",
+        "text": "我倒觉得还差点什么."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_A",
+        "text": "欸啊，空罐子就直接扔掉吧？\n你们俩别玩了....."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_B",
+        "text": "扔掉就扔掉吧....."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_C",
+        "text": "怎么办啊？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "boxState": "normal",
+        "portrait": "Gf_Dialogue",
+        "expression": "Gf_B",
+        "text": "要不然.....咱们走吧....？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_A",
+        "text": "啊，你们看，那边有人来了唉！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_B",
+        "text": "啊？还有人啊？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_E",
+        "text": "(被发现了...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_B",
+        "text": "喂喂！！\n你们不要再继续这样下去了...！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_C",
+        "text": "哈？你说什么呢小子？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_A",
+        "text": ".......？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_B",
+        "text": "还能说什么啊，你们就是那个五人犯罪团伙吧...？？\n不要伤害我们啊！不然我就报警了！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_B",
+        "text": "啊哈哈....你是不是误会些什么了....\n小朋友？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_B",
+        "text": "我们是不是摊上事了？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_D",
+        "text": "..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_D",
+        "text": "我来解释一下啊！\n首先，我们只是出来玩，然后呢...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_C",
+        "text": "等下，我在紧张什么...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_B",
+        "text": "....来对决吧！\n用RAP来解决！恶人们！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_I",
+        "text": "你怎么什么时候都在用这招..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_C",
+        "text": "啊？什么，什么是RAP啊？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_D",
+        "text": "就是，嗯，一种很新对战形式吧。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_D",
+        "text": "昂，所以你们有谁会唱歌啊？\n我倒挺想看你们和他唱的。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_D",
+        "text": "...让他来吧。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_C",
+        "text": "我也觉得加拉能行！\n加油呀———！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_E",
+        "text": "好啊，我奉陪！"
+      }
+    ]
+  }

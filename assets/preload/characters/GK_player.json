@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				5,
-				52
+				-3,
+				40
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				8,
-				20
+				-2,
+				40
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-2,
-				30
+				-3,
+				39
 			],
 			"loop": false,
 			"fps": 24,
@@ -37,7 +37,7 @@
 			"loop": false,
 			"offsets": [
 				-2,
-				30
+				40
 			],
 			"anim": "hey",
 			"fps": 24,
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				4,
-				30
+				-3,
+				38
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -59,7 +59,7 @@
 			"loop": false,
 			"offsets": [
 				-2,
-				30
+				40
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -69,7 +69,7 @@
 		{
 			"offsets": [
 				0,
-				0
+				40
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,8 +79,8 @@
 		},
 		{
 			"offsets": [
-				4,
-				30
+				-1,
+				39
 			],
 			"loop": false,
 			"fps": 24,
@@ -90,8 +90,8 @@
 		},
 		{
 			"offsets": [
-				-2,
-				30
+				-3,
+				39
 			],
 			"loop": false,
 			"fps": 24,
@@ -101,8 +101,8 @@
 		},
 		{
 			"offsets": [
-				-2,
-				30
+				-4,
+				40
 			],
 			"loop": false,
 			"fps": 24,
@@ -112,8 +112,8 @@
 		},
 		{
 			"offsets": [
-				233,
-				28
+				-37,
+				-282
 			],
 			"loop": false,
 			"fps": 24,
@@ -124,8 +124,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				233,
-				28
+				-36,
+				-282
 			],
 			"anim": "firstDeath",
 			"fps": 24,
@@ -135,17 +135,17 @@
 		{
 			"loop": true,
 			"offsets": [
-				233,
-				28
+				-37,
+				-282
 			],
 			"anim": "deathLoop",
-			"fps": 24,
+			"fps": 20,
 			"name": "BF Dead Loop",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/GK_player",
+	"image": "characters/gk_player",
 	"position": [
 		50,
 		80
@@ -158,9 +158,9 @@
 		214
 	],
 	"camera_position": [
-		180,
-		130
+		100,
+		20
 	],
 	"sing_duration": 7.99999999999999,
-	"scale": 1.5
+	"scale": 0.999999999999999
 }

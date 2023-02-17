@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		180,
+		80
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"loop_name": "De_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "De_A",
+			"anim": "De_A",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "De_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "De_B",
+			"anim": "De_B",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "De_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "De_C",
+			"anim": "De_C",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "De_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "De_D",
+			"anim": "De_D",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "De_E",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "De_E",
+			"anim": "De_E",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "De_Dialogue"
+}

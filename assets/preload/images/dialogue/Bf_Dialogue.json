@@ -1,0 +1,141 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		50,
+		80
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"loop_name": "Bf_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_A",
+			"anim": "Bf_A",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_B",
+			"anim": "Bf_B",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_C",
+			"anim": "Bf_C",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_D",
+			"anim": "Bf_D",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_F",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_F",
+			"anim": "Bf_F",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_G",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_G",
+			"anim": "Bf_G",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_H",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_H",
+			"anim": "Bf_H",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_I",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_I",
+			"anim": "Bf_I",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_J",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_J",
+			"anim": "Bf_J",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bf_K",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bf_K",
+			"anim": "Bf_K",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Bf_Dialogue"
+}

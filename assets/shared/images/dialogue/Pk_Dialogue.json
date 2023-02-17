@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		180,
+		80
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"loop_name": "Pk_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pk_A",
+			"anim": "Pk_A",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Pk_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pk_B",
+			"anim": "Pk_B",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Pk_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pk_C",
+			"anim": "Pk_C",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Pk_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pk_D",
+			"anim": "Pk_D",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Pk_E",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pk_E",
+			"anim": "Pk_E",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Pk_Dialogue"
+}

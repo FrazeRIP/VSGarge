@@ -231,6 +231,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		bgFade.visible = true;
 		bgFade.alpha = 0;
 		add(bgFade);
+		bgFade.camera = PlayState.instance.camDialogue;
 
 		this.dialogueList = dialogueList;
 		spawnCharacters();
@@ -252,9 +253,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		box.setGraphicSize(Std.int(box.width * 0.9));
 		box.updateHitbox();
 		add(box);
+		box.camera = PlayState.instance.camDialogue;
 
-		daText = initializeText(DEFAULT_TEXT_X, 0, 975, 48, 'test');
+		daText = initializeText(DEFAULT_TEXT_X + 40, DEFAULT_TEXT_Y + 20, 870, 32, 'test');
+		// daText.x = daText.x + 80;
+		// daText.y = daText.y + 150;
 		add(daText);
+		daText.camera = PlayState.instance.camDialogue;
 
 		startNextDialog();
 	}
@@ -295,6 +300,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			char.scrollFactor.set();
 			char.alpha = 0.00001;
 			add(char);
+			char.camera = PlayState.instance.camDialogue;
 
 			var saveY:Bool = false;
 			switch (char.jsonFile.dialogue_pos)
@@ -613,7 +619,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 		startFlxText(daText, curDialogue);
 
-		daText.y = DEFAULT_TEXT_Y;
+		// daText.y = DEFAULT_TEXT_Y;
 
 		var char:DialogueCharacter = arrayCharacters[character];
 		if (char != null)
@@ -669,14 +675,14 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			box.offset.y += 10;
 	}
 
-	var font = Paths.font("Chinese.ttf");
+	var font = Paths.font("vcr.ttf");
 	var textSounds = FlxG.sound.load(Paths.sound('scrollMenu'));
 
 	function initializeText(x:Float, y:Float, width:Int, size:Int, content:String):FlxTypeText
 	{
-		trace('initialize text');
+		// trace('initialize text');
 		var daText = new FlxTypeText(x, y, width, content, size);
-		trace('text content: ' + content);
+		// trace('text content: ' + content);
 
 		daText.autoErase = false;
 		daText.setFormat(font, size);
@@ -686,15 +692,14 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText.sounds = [textSounds];
 		daText.color = FlxColor.BLACK;
 		daText.alpha = 1;
-		daText.prefix = "\n";
-		daText.camera = PlayState.instance.camOther;
+		daText.prefix = "";
 
 		return daText;
 	}
 
 	function resetText(daText:FlxTypeText, content:String)
 	{
-		trace('reset text');
+		// trace('reset text');
 		daText.resetText(content);
 		finishedText = false;
 	}
@@ -703,15 +708,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	{
 		if (daText == null)
 		{
-			trace('text is null');
+			// trace('text is null');
 		}
 		resetText(daText, currentDialogue.text);
 		// daText = initializeText(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, 500, 8, currentDialogue.text);
 		daText.start(.05, true, false, [], function()
 		{
 			finishedText = true;
-			trace('finish playing text: ' + currentDialogue.text);
+			// trace('finish playing text: ' + currentDialogue.text);
 		});
-		trace('start playing text: ' + currentDialogue.text);
+		// trace('start playing text: ' + currentDialogue.text);
 	}
 }

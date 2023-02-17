@@ -1,0 +1,141 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		180,
+		80
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"loop_name": "Gk_A",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_A",
+			"anim": "Gk_A",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_B",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_B",
+			"anim": "Gk_B",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_C",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_C",
+			"anim": "Gk_C",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_D",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_D",
+			"anim": "Gk_D",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_E",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_E",
+			"anim": "Gk_E",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_F",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_F",
+			"anim": "Gk_F",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_G",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_G",
+			"anim": "Gk_G",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_H",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_H",
+			"anim": "Gk_H",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_I",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_I",
+			"anim": "Gk_I",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gk_J",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gk_J",
+			"anim": "Gk_J",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Gk_Dialogue"
+}
