@@ -31,12 +31,43 @@ end
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)
 	
-	debugPrint(count);
 	if count == 1 then
-		toggleDialogueUI(true,.5)
-		toggleDialogueBackUI(false,.5)
-		toggleHUDUI(true,.5)
+		toggleDialogueUI(true,.75)
 	end
+
+	if count == 6 then
+		toggleDialogueUI(false,.25)
+		toggleCG('2',true,.75)
+	end
+
+	if count == 7 then
+		toggleDialogueUI(true,.75)
+	end
+
+	if count == 10 then
+		toggleDialogueUI(false,.25)
+		toggleCG('3',true,.75)
+	end
+
+	if count == 11 then
+		toggleDialogueUI(true,.75)
+	end
+	
+	if count == 18 then
+		toggleDialogueUI(false,.25)
+		toggleCG('4',true,.75)
+	end
+
+	if count == 19 then
+		toggleDialogueUI(true,.75)
+	end
+	
+	if count == 24 then
+		toggleCG('0',true,.75)
+	end
+
+
+
 end
 
 function onSkipDialogue(count)
@@ -49,6 +80,11 @@ function onDialogueFinished()
 		toggleHUDUI(true,0.5)
 		toggleDialogueUI(false,0.5)
 		toggleDialogueBackUI(false,0.5)
+		toggleCG('0',false,0.5)
+		toggleCG('1',false,0.5)
+		toggleCG('2',false,0.5)
+		toggleCG('3',false,0.5)
+		toggleCG('4',false,0.5)
 end
 
 
@@ -80,11 +116,11 @@ end
 
 function preloadAssets( ... )
 	loadBlack('black');
-	loadCG('0');
 	loadCG('1');
 	loadCG('2');
 	loadCG('3');
 	loadCG('4');
+	loadCG('0');
 end
 
 function loadCG(index)
@@ -110,43 +146,30 @@ end
 
 function toggleDialogueBackUI(isActive,duration)
 	if isActive then
-		--debugPrint('activate dialogue back cam');
-		doTweenAlpha('camDialogueBackA', 'b', 1, duration,'cubeOut')
-		--debugPrint('success');
+		doTweenAlpha('camDialogueBackA', 'camdialogueback', 1, duration,'cubeOut')
 	else
-		--debugPrint('disable dialogue back cam');
-		doTweenAlpha('camDialogueBackA', 'b', 0, duration,'cubeOut')
-		--debugPrint('success');
+		doTweenAlpha('camDialogueBackA', 'camdialogueback', 0, duration,'cubeOut')
 	end
 end
 
 function toggleDialogueUI(isActive,duration)
 	if isActive then
-		--debugPrint('activate dialogue cam');
-		doTweenAlpha('camDialogueA', 'a', 1, duration,'cubeOut')
-		--debugPrint('success');
+		doTweenAlpha('camDialogueA', 'camdialogue', 1, duration,'cubeOut')
 	else
-		--debugPrint('disable dialogue cam');
-		doTweenAlpha('camDialogueA', 'a', 0, duration,'cubeOut')
-		--debugPrint('success');
+		doTweenAlpha('camDialogueA', 'camdialogue', 0, duration,'cubeOut')
 	end
 end
 
 function toggleHUDUI(isActive,duration)
 	if isActive then
-		--debugPrint('activate UI cam');
 		doTweenAlpha('camHUDA', 'camHUD', 1, duration,'cubeOut')
-		--debugPrint('success');
 	else
-		--debugPrint('disable UI cam');
 		doTweenAlpha('camHUDA', 'camHUD', 0, duration,'cubeOut')
-		--debugPrint('success');
 	end
 end
 
 function toggleCG(index,isActive,duration)
 	if isActive then
-		--setProperty('isLockDialogue',true)
 		doTweenAlpha('cg'..index..'A', 'cg'..index, 1, duration,'cubeOut')
 	else
 		doTweenAlpha('cg'..index..'A', 'cg'..index, 0, duration,'cubeOut')

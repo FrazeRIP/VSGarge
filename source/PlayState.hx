@@ -1148,7 +1148,7 @@ class PlayState extends MusicBeatState
 		FlxG.fixedTimestep = false;
 		moveCameraSection();
 
-		if (songName == 'uchoten' || songName == 'ramune')
+		if (songName == 'ramune')
 		{
 			healthBarBG = new AttachedSprite('healthBar_night');
 		}
@@ -1722,6 +1722,7 @@ class PlayState extends MusicBeatState
 				psychDialogue.finishThing = function()
 				{
 					psychDialogue = null;
+					callOnLuas('onDialogueFinished', []);
 					startCountdown();
 				}
 			}

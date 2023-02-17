@@ -4861,6 +4861,7 @@
 		"player3": null,
 		"song": "Ramune",
 		"stage": "night",
+		"arrowSkin": "NOTE_Assets_Night",
 		"needsVoices": true,
 		"validScore": true,
 		"bpm": 140,

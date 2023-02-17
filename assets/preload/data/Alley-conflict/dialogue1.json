@@ -195,14 +195,6 @@
       {
         "sound": "",
         "speed": 0.05,
-        "portrait": "Empty",
-        "boxState": "normal",
-        "expression": "Empty",
-        "text": ""
-      },
-      {
-        "sound": "",
-        "speed": 0.05,
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",

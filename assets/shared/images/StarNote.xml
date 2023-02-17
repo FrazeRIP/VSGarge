@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StarNote.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="100" y="100" width="170" height="163"/>
+	<SubTexture name="blue hold end0000" x="513" y="370" width="50" height="64"/>
+	<SubTexture name="blue hold piece0000" x="363" y="370" width="50" height="44"/>
+	<SubTexture name="green0000" x="370" y="100" width="170" height="166"/>
+	<SubTexture name="green hold end0000" x="513" y="370" width="50" height="64"/>
+	<SubTexture name="green hold piece0000" x="363" y="370" width="50" height="44"/>
+	<SubTexture name="pruple end hold0000" x="513" y="370" width="50" height="64"/>
+	<SubTexture name="purple0000" x="640" y="100" width="163" height="170"/>
+	<SubTexture name="purple hold piece0000" x="363" y="370" width="50" height="44"/>
+	<SubTexture name="red0000" x="100" y="370" width="163" height="170"/>
+	<SubTexture name="red hold end0000" x="513" y="370" width="50" height="64"/>
+	<SubTexture name="red hold piece0000" x="363" y="370" width="50" height="44"/>
+</TextureAtlas>

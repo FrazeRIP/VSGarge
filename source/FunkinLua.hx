@@ -1249,6 +1249,16 @@ class FunkinLua
 		Lua_helper.add_callback(lua, "doTweenAlpha", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
 			var penisExam:Dynamic = tweenShit(tag, vars);
+
+			if (vars == "camdialogue")
+			{
+				penisExam = PlayState.instance.camDialogue;
+			}
+			else if (vars == "camdialogueback")
+			{
+				penisExam = PlayState.instance.camDialogueBack;
+			}
+
 			if (penisExam != null)
 			{
 				PlayState.instance.modchartTweens.set(tag, FlxTween.tween(penisExam, {alpha: value}, duration, {
@@ -3675,13 +3685,15 @@ class FunkinLua
 		switch (cam.toLowerCase())
 		{
 			case 'camhud' | 'hud':
+				trace('return hud cam');
 				return PlayState.instance.camHUD;
 			case 'camother' | 'other':
+				trace('return other cam');
 				return PlayState.instance.camOther;
-			case 'camdialogue' | 'a':
+			case 'camdialogue':
 				trace('return dialogue cam');
 				return PlayState.instance.camDialogue;
-			case 'camdialogueback' | 'b':
+			case 'camdialogueback':
 				trace('return dialogue back cam');
 				return PlayState.instance.camDialogueBack;
 		}
