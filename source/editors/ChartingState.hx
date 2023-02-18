@@ -1066,7 +1066,7 @@ class ChartingState extends MusicBeatState
 		#if LUA_ALLOWED
 		var eventPushedMap:Map<String, Bool> = new Map<String, Bool>();
 		var directories:Array<String> = [];
-
+		directories.push(Paths.getLibraryPath('custom_events/'));
 		#if MODS_ALLOWED
 		directories.push(Paths.mods('custom_events/'));
 		directories.push(Paths.mods(Paths.currentModDirectory + '/custom_events/'));
