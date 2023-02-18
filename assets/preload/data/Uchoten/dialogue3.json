@@ -1,0 +1,188 @@
+{
+    "dialogue": [
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_E",
+        "text": "所以呢，我们并不是那个犯罪团伙...\n懂了吗？我们只是出来逛个街而已。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_D",
+        "text": "不信，怎么感觉你们在找借口。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_B",
+        "text": "啊哈哈...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_C",
+        "text": "怎么办啊被冤枉了。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_B",
+        "text": "...我想回家。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_J",
+        "text": "唉我去你看伊斯手里提的那一大兜子就知道了啊。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_B",
+        "text": "欸...说不定是你们抢的呢？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_C",
+        "text": "？不是这小孩怎么回事啊"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_F",
+        "text": "..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_D",
+        "text": "...汽水都快没冰了"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_B",
+        "text": "话说阿多现在几点了啊"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_B",
+        "text": "呀我看一看啊..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_C",
+        "text": "六点四十五了！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_C",
+        "text": "啊，那也不早了。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_F",
+        "text": "你们是从中午唱到现在欸"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_E",
+        "text": "很有毅力！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_F",
+        "text": "你不要刚学个新词就乱用啊？？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_E",
+        "text": "...嗯"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_H",
+        "text": "可是我还想唱耶？？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_H",
+        "text": "唱上瘾了是不"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_",
+        "text": "没关系啊！\n让他俩唱吧...只要不要唱到半夜"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_",
+        "text": "那么...！"
+      }
+    ]
+  }

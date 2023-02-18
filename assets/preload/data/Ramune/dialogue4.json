@@ -1,0 +1,188 @@
+{
+    "dialogue": [
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_D",
+        "text": "我累了啊...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_E",
+        "text": "歇一歇吧，加拉"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": "哥哥姐姐好！\n免费报纸，送给你们看咯!!"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_D",
+        "text": "..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_C",
+        "text": "欸？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_C",
+        "text": "啊...啊啊！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_C",
+        "text": "对不起啊！我误会你们了！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_F",
+        "text": "嘁，早就说是误会了..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_E",
+        "text": "不过也没关系其实"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_C",
+        "text": "哎呀！！那么和好了就做个朋友吧！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_E",
+        "text": "！！新朋友"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_A",
+        "text": "蛮好的"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_J",
+        "text": "等一下啊？？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_H",
+        "text": "你又怎么了"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_A",
+        "text": "我..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_F",
+        "text": "我们来场最后的RAP对决吧？bf！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_F",
+        "text": "跟你说唱真的很有意思！\n既然都已经是朋友了，那么...！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_B",
+        "text": "（唱嗨了..."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_J",
+        "text": "来吧！这是决战！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_F",
+        "text": "..."
+      }
+    ]
+  }

@@ -13,7 +13,7 @@
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "nlm",
-	"difficulties": "",
+	"difficulties": "normal,hard",
 	"weekCharacters": [
 		"",
 		"",
@@ -27,6 +27,6 @@
 		253
 	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekBefore": "gk",
+	"startUnlocked": false
 }

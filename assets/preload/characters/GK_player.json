@@ -145,7 +145,7 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/gk_player",
+	"image": "characters/GK_player",
 	"position": [
 		50,
 		80

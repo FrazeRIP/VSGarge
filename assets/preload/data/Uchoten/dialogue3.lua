@@ -18,7 +18,7 @@ end
 
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue1', 'breakfast');
+		startDialogue('dialogue3', 'breakfast');
 	end
 end
 
@@ -26,48 +26,19 @@ end
 function startAction()
 	toggleHUDUI(false,0.00001)
 	toggleDialogueUI(false,0.000001)
-	toggleCG('1',true,.75)
+	toggleCG('6',true,.75)
 end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)
-	
+	--debugPrint(count)
 	if count == 1 then
-		toggleDialogueUI(true,.5)
-	end
-
-	if count == 6 then
-		toggleDialogueUI(false,.25)
-		toggleCG('2',true,.75)
-	end
-
-	if count == 7 then
 		toggleDialogueUI(true,.75)
 	end
 
 	if count == 10 then
-		toggleDialogueUI(false,.25)
-		toggleCG('3',true,.75)
-	end
-
-	if count == 11 then
-		toggleDialogueUI(true,.75)
-	end
-	
-	if count == 18 then
-		toggleDialogueUI(false,.25)
-		toggleCG('4',true,.75)
-	end
-
-	if count == 19 then
-		toggleDialogueUI(true,.75)
-	end
-	
-	if count == 24 then
 		toggleCG('0',true,.75)
 	end
-
-
 
 end
 
@@ -76,38 +47,12 @@ function onSkipDialogue(count)
 end
 
 
-
 function onDialogueFinished()
 		toggleHUDUI(true,0.5)
 		toggleDialogueUI(false,0.5)
 		toggleDialogueBackUI(false,0.5)
 		toggleCG('0',false,0.5)
-		toggleCG('1',false,0.00005)
-		toggleCG('2',false,0.00005)
-		toggleCG('3',false,0.0005)
-		toggleCG('4',false,0.0005)
-end
-
-
-
-function onTweenCompleted( tag )
-	if tag == 'cg0A' then
-		--setProperty('isLockDialogue',false)
-	end
-	
-	if tag == 'cg1A' then
-		--setProperty('isLockDialogue',false)
-	end
-	if tag == 'cg2A' then
-		--setProperty('isLockDialogue',false)
-	end
-	if tag == 'cg3A' then
-		--setProperty('isLockDialogue',false)
-	end
-	
-	if tag == 'cg4A' then
-		--setProperty('isLockDialogue',false)
-	end
+		toggleCG('6',false,0.000005)
 end
 
 
@@ -117,10 +62,7 @@ end
 
 function preloadAssets( ... )
 	loadBlack('black');
-	loadCG('1');
-	loadCG('2');
-	loadCG('3');
-	loadCG('4');
+	loadCG('6');
 	loadCG('0');
 end
 

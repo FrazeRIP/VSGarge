@@ -1,0 +1,189 @@
+{
+    "dialogue": [
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": ""
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_I",
+        "text": "哈啊...！\n怎么样！还不赖吧？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_E",
+        "text": "...不错。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_A",
+        "text": "我去，你牛O啊加尔吉！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_D",
+        "text": "好听的！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_D",
+        "text": "我就说小加拉能行吧—！！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_A",
+        "text": "哼哼...\n没想到你唱功那么好！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_G",
+        "text": "是吧是吧？？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_J",
+        "text": "来个自我介绍吧，你们五个！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_E",
+        "text": "（你一开始不是挺慌的吗...."
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_C",
+        "text": "额啊...好？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_H",
+        "text": "我叫加尔吉！旁边这四位是我的好兄弟！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_H",
+        "text": "扎马尾那个叫伊斯，粉头发那个叫佩克。\n留狼尾那个叫阿比斯，还有绿渐变的那个叫徳鄂阿多！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_C",
+        "text": "叫我渊就好——那你们呢？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_G",
+        "text": "嗨呀，我是Boyfriend！\n以及这位是Girlfriend！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ec_Dialogue",
+        "boxState": "normal",
+        "expression": "Ec_D",
+        "text": "好怪的名字。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_D",
+        "text": "那么误会解除啦？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_F",
+        "text": "嗯，看起来还没。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gf_Dialogue",
+        "boxState": "normal",
+        "expression": "Gf_B",
+        "text": "你们也没有敌意嘛...\n啊...那么，我们是不是该--"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_J",
+        "text": "进行下一首歌了？？！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_C",
+        "text": "啊？还唱啊？"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Bf_Dialogue",
+        "boxState": "normal",
+        "expression": "Bf_I",
+        "text": "唱啊！"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Gk_Dialogue",
+        "boxState": "normal",
+        "expression": "Gk_E",
+        "text": "...好吧。"
+      }
+
+    ]
+  }

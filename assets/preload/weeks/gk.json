@@ -1,6 +1,6 @@
 {
 	"storyName": "garge",
-	"difficulties": "",
+	"difficulties": "normal,hard",
 	"hideFreeplay": false,
 	"weekBackground": "gk",
 	"weekBefore": "tutorial",
