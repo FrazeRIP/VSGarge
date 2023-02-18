@@ -18,13 +18,13 @@ end
 
 
 function onSongStart()
-	doTweenX('songPlateX', 'songPlate', 30, 1, 'cubeOut')
+	doTweenX('songPlateX', 'songPlate', -100, .75, 'cubeOut')
 end
 
 
 function onTweenCompleted(tag)
 	if tag == 'songPlateX' then
-		runTimer('songPlateTimer', 3)
+		runTimer('songPlateTimer', 2)
 	end
 
 end

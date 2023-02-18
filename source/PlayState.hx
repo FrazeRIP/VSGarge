@@ -1197,7 +1197,7 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "AI代打ing...", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -4280,7 +4280,15 @@ class PlayState extends MusicBeatState
 					{
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new ThankYouState());
+
+					if (WeekData.getCurrentWeek().weekName != 'neliman')
+					{
+						MusicBeatState.switchState(new ThankYouState());
+					}
+					else
+					{
+						MusicBeatState.switchState(new TitleState());
+					}
 
 					// if ()
 					if (!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false))

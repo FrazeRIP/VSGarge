@@ -110,7 +110,13 @@ class CreditsState extends MusicBeatState
 			['Others'],
 			['Sharon', 'Sharon', 'Composer', 'https://twitter.com/rQzyG5CWR1tIRbF', '73AFB2'],
 			['Doge 122', 'Doge_122', 'Composer', 'https://twitter.com/doge122_', '3B3F80'],
-			['Nessie', 'Nessie', 'Composer', '', 'B59264'],
+			[
+				'Nessie',
+				'Nessie',
+				'Composer',
+				'https://space.bilibili.com/435891877/?spm_id_from=333.999.0.0',
+				'B59264'
+			],
 			['Oil', 'Oil', 'Composer', 'https://twitter.com/Oil_Hair444', '3F7D8C'],
 			['Rhodes_W', 'Rhodes_W', 'Composer', 'https://twitter.com/RhodesW1220', '850B18'],
 
