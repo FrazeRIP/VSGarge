@@ -75,6 +75,8 @@ makeLuaSprite('A', 'stage/dusk/Layer8', -1500, -500);
 	scaleObject('H', 1.1, 1.1);
 	setScrollFactor('H', 1, 1)
 
+	
+
 	addLuaSprite('A', false)
 	addLuaSprite('B', false)
 	addLuaSprite('C', false)
@@ -89,4 +91,37 @@ makeLuaSprite('A', 'stage/dusk/Layer8', -1500, -500);
 	addLuaSprite('ec', false);
 	addLuaSprite('H', true)
 
+	loadBlack('blackStage')
+
+	makeLuaSprite('ready', 'ready', 480, 250)
+	setScrollFactor('ready', 0, 0)
+	scaleObject('ready', .5, .5);
+	setObjectCamera('ready', 'camHUD')
+	addLuaSprite('ready', true)
+	doTweenAlpha('readyA', 'ready', 0, 0.00001,'cubeOut')
+
+	makeLuaSprite('set', 'set', 480, 250)
+	setScrollFactor('Hset', 0, 0)
+	scaleObject('set', .5, .5);
+	setObjectCamera('set', 'camHUD')
+	addLuaSprite('set', true)
+	doTweenAlpha('setA', 'set', 0, 0.00001,'cubeOut')
+
+	makeLuaSprite('go', 'go', 430, 150)
+	setScrollFactor('go', 0, 0)
+	scaleObject('go', .8, .8);
+	setObjectCamera('go', 'camHUD')
+	addLuaSprite('go', true)
+	doTweenAlpha('goA', 'go', 0, 0.00001,'cubeOut')
+
+	
+end
+
+function loadBlack(name)
+	makeLuaSprite(name, '', -800, -500);
+	makeGraphic(name, 1280, 720, '000000')
+	scaleObject(name, 4, 3);
+	setScrollFactor(name, 0, 0);
+	addLuaSprite(name, false);
+	doTweenAlpha(name..'A', name, 0, 0.00001)
 end

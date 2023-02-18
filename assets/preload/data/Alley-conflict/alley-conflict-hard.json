@@ -1,30 +1,1731 @@
 {
 	"song": {
 		"player1": "BF_noon",
-		"player2": "GK_noon",
+		"events": [
+			[
+				0,
+				[
+					[
+						"ShowBar",
+						"6.4",
+						"cubeIn"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"HideBar",
+						"1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				32400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				32600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				33000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				33200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				33600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				34000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				34200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				34600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				34800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				35200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				35600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				35800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				36200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				36400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				36800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				37200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				37400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				37700,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				37800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				38000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				38800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				39400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				39600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				40000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				40400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				40600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				41000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				41200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				41600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				42200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				42600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				42800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				43200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				43600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				43800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				44100,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				44200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				44400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				44800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				45200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				45400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				45800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				46000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				46400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				46800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				47000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				47400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				47600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				48400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				48600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				49000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				49200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				49600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				50000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				50200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				50500,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				50600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				50800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				51600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				51800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				52200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				52400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				53200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				53400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				53800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				54000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				54400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				54800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				55000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				55400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				55600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				56400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				56600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				56800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				56900,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				57200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"ShowBar",
+						"1.6",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				83200,
+				[
+					[
+						"HideBar",
+						"1.6",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				83600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				83800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				84200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				84400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				84800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				85200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				85400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				85800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				86800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				87000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				87400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				87600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				88400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				88600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				88800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				88900,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				89200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				90200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				90600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				90800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				91200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				91600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				91800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				92200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				92400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				92800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				93200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				93400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				93800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				94000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				94400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				94800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				95000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				95200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				95300,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				95600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				96400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				96600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				97000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				97200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				97600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				98000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				98200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				98600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				98800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				99200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				99600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				99800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				100200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				100400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				100800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				101200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				101400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				101600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				101700,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				102000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				102400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				102800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				103000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				103400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				103600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				104400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				104600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				105200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				105600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				106000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				106200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				106700,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				106900,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				107200,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				107600,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				107800,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				108100,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			],
+			[
+				108400,
+				[
+					[
+						"UIHop",
+						"1.035",
+						""
+					]
+				]
+			]
+		],
+		"gfVersion": "GF_noon",
 		"notes": [
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						6400,
@@ -62,10 +1763,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						7999.99951,
@@ -113,10 +1814,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						9600,
@@ -154,10 +1855,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						11200,
@@ -200,10 +1901,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						12800,
@@ -246,10 +1947,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						14399.999,
@@ -297,10 +1998,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						15999.999,
@@ -338,10 +2039,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						17600,
@@ -384,10 +2085,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						19200,
@@ -440,10 +2141,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						20800,
@@ -496,10 +2197,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						22400,
@@ -557,10 +2258,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						24000,
@@ -608,10 +2309,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						25600,
@@ -664,10 +2365,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						27199.998,
@@ -715,10 +2416,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						28799.998,
@@ -771,10 +2472,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						30399.998,
@@ -817,10 +2518,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						31999.998,
@@ -863,10 +2564,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						33600,
@@ -909,10 +2610,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						35200,
@@ -950,10 +2651,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						36800,
@@ -996,10 +2697,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						38400,
@@ -1047,10 +2748,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						40000,
@@ -1093,10 +2794,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						41600,
@@ -1134,10 +2835,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						43200,
@@ -1180,10 +2881,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						44800,
@@ -1231,10 +2932,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						46400,
@@ -1257,10 +2958,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						48000,
@@ -1303,10 +3004,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						49600,
@@ -1329,10 +3030,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						51200,
@@ -1375,10 +3076,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						52799.9961,
@@ -1401,10 +3102,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						54399.9961,
@@ -1447,10 +3148,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						55999.9961,
@@ -1473,10 +3174,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						57599.9961,
@@ -1509,10 +3210,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						59399.9961,
@@ -1550,10 +3251,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						60799.9961,
@@ -1581,10 +3282,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						62399.9961,
@@ -1627,10 +3328,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						63999.9961,
@@ -1668,10 +3369,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						65800,
@@ -1709,10 +3410,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						67200,
@@ -1740,10 +3441,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						68800,
@@ -1786,10 +3487,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						70400,
@@ -1837,10 +3538,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						72200,
@@ -1878,10 +3579,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						73600,
@@ -1909,10 +3610,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						75200,
@@ -1955,10 +3656,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						76800,
@@ -2006,10 +3707,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						78600,
@@ -2047,10 +3748,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						80000,
@@ -2078,10 +3779,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						81600,
@@ -2124,10 +3825,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						83200,
@@ -2160,10 +3861,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						84800,
@@ -2201,10 +3902,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						86400,
@@ -2247,10 +3948,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						88000,
@@ -2273,10 +3974,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						89600,
@@ -2314,10 +4015,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						91200,
@@ -2355,10 +4056,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						92800,
@@ -2401,10 +4102,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						94400,
@@ -2427,10 +4128,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						96000,
@@ -2458,10 +4159,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						97600,
@@ -2484,10 +4185,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						99200,
@@ -2515,10 +4216,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						100800,
@@ -2581,10 +4282,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						102400,
@@ -2612,10 +4313,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						103999.992,
@@ -2638,10 +4339,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						105599.992,
@@ -2669,10 +4370,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						107199.992,
@@ -2715,10 +4416,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						108799.992,
@@ -2766,10 +4467,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						110399.992,
@@ -2817,10 +4518,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						111999.992,
@@ -2873,10 +4574,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						113599.992,
@@ -2919,10 +4620,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						115199.992,
@@ -2975,10 +4676,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						116799.992,
@@ -3026,10 +4727,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						118399.992,
@@ -3082,10 +4783,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						119999.992,
@@ -3128,10 +4829,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						121599.992,
@@ -3179,10 +4880,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						123199.992,
@@ -3225,10 +4926,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						124799.992,
@@ -3266,10 +4967,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						126399.992,
@@ -3312,10 +5013,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						127999.992,
@@ -3363,10 +5064,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						129599.992,
@@ -3409,10 +5110,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						131200,
@@ -3450,10 +5151,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						132800,
@@ -3496,10 +5197,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						134400,
@@ -3537,10 +5238,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						136000,
@@ -3588,10 +5289,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						137600,
@@ -3629,10 +5330,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						139200,
@@ -3675,10 +5376,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						140800,
@@ -3721,10 +5422,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						142400,
@@ -3772,10 +5473,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						144000,
@@ -3813,10 +5514,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						145600,
@@ -3859,6 +5560,27 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 150,
+				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
@@ -3880,6 +5602,176 @@
 				"mustHitSection": true,
 				"changeBPM": false,
 				"bpm": 150
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
 			},
 			{
 				"gfSection": false,
@@ -3902,14 +5794,13 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "GF_noon",
-		"events": [],
+		"player2": "GK_noon",
 		"player3": null,
 		"song": "Alley Conflict",
-		"validScore": true,
-		"needsVoices": true,
 		"stage": "noon",
-		"speed": 3.2,
-		"bpm": 150
+		"needsVoices": true,
+		"validScore": true,
+		"bpm": 150,
+		"speed": 3.2
 	}
 }

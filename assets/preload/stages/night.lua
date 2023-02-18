@@ -101,4 +101,14 @@ makeLuaSprite('A', 'stage/night/Layer8', -1800, -500);
 	addLuaSprite('H', true)
 	addLuaSprite('guest', true)
 
+	loadBlack('blackStage')
+end
+
+function loadBlack(name)
+	makeLuaSprite(name, '', -800, -500);
+	makeGraphic(name, 1280, 720, '000000')
+	scaleObject(name, 4, 3);
+	setScrollFactor(name, 0, 0);
+	addLuaSprite(name, false);
+	doTweenAlpha(name..'A', name, 0, 0.00001)
 end

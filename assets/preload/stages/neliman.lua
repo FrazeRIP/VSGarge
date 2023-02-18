@@ -66,4 +66,25 @@ function onCreate()
 	addLuaSprite('H', true)
 	addLuaSprite('B', false)
 
+	loadBlack('blackStage')
+	loadWhite('WhiteBack',false)
+	loadWhite('Whitefront',true)
+end
+
+function loadBlack(name)
+	makeLuaSprite(name, '', -800, -500);
+	makeGraphic(name, 1280, 720, '000000')
+	scaleObject(name, 4, 3);
+	setScrollFactor(name, 0, 0);
+	addLuaSprite(name, false);
+	doTweenAlpha(name..'A', name, 0, 0.00001)
+end
+
+function loadWhite(name,inFront)
+	makeLuaSprite(name, '', -800, -500);
+	makeGraphic(name, 1280, 720, 'FFFFFF')
+	scaleObject(name, 4, 3);
+	setScrollFactor(name, 0, 0);
+	addLuaSprite(name, inFront);
+	doTweenAlpha(name..'A', name, 0, 0.00001)
 end

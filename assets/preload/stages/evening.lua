@@ -53,21 +53,25 @@ makeLuaSprite('A', 'stage/evening/Layer8', -1800, -500);
 	setScrollFactor('I', 1.005, 1)
 	
 	makeAnimatedLuaSprite('pk', 'stage/evening/Guest/pk', -1050, 50);
+	addAnimationByPrefix('pk','PkHey','PkHey',24,false);
 	addAnimationByPrefix('pk','PkIdle','PkIdle',24,true);	
 	scaleObject('pk', 1, 1);
 	setScrollFactor('pk', 1, 1)
 
 	makeAnimatedLuaSprite('ab', 'stage/evening/Guest/ab', -450, -50);
+	addAnimationByPrefix('ab','AbHey','AbHey',22,false);	
 	addAnimationByPrefix('ab','AbIdle','AbIdle',22,true);	
 	scaleObject('ab', 1.1, 1.1);
 	setScrollFactor('ab', 1, 1)
 
 	makeAnimatedLuaSprite('de', 'stage/evening/Guest/de', 150, -50);
+	addAnimationByPrefix('de','DeHey','DeHey',22,false);	
 	addAnimationByPrefix('de','DeIdle','DeIdle',22,true);	
 	scaleObject('de', 1.1, 1.1);
 	setScrollFactor('de', 1, 1)
 
 	makeAnimatedLuaSprite('ec', 'stage/evening/Guest/ec', 800, -50);
+	addAnimationByPrefix('ec','EcHey','EcHey',22,false);	
 	addAnimationByPrefix('ec','EcIdle','EcIdle',22,true);	
 	scaleObject('ec', 1.1, 1.1);
 	setScrollFactor('ec', 1, 1)
@@ -75,6 +79,12 @@ makeLuaSprite('A', 'stage/evening/Layer8', -1800, -500);
 	makeLuaSprite('H', 'stage/evening/Layer0', -1500, -400)
 	scaleObject('H', 1.1, 1.1);
 	setScrollFactor('H', 1, 1)
+
+	
+	objectPlayAnimation('pk', 'PkIdle')
+	objectPlayAnimation('ab', 'AbIdle')
+	objectPlayAnimation('de', 'DeIdle')
+	objectPlayAnimation('ec', 'EcIdle')
 
 	addLuaSprite('A', false)
 	addLuaSprite('B', false)
@@ -90,4 +100,17 @@ makeLuaSprite('A', 'stage/evening/Layer8', -1800, -500);
 	addLuaSprite('ec', false);
 	addLuaSprite('H', true)
 
+	loadBlack('blackStage')
+end
+
+
+
+
+function loadBlack(name)
+	makeLuaSprite(name, '', -800, -500);
+	makeGraphic(name, 1280, 720, '000000')
+	scaleObject(name, 4, 3);
+	setScrollFactor(name, 0, 0);
+	addLuaSprite(name, false);
+	doTweenAlpha(name..'A', name, 0, 0.00001)
 end

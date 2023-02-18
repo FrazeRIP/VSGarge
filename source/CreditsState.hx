@@ -122,6 +122,7 @@ class CreditsState extends MusicBeatState
 
 			['Special Thanks'],
 			['Yuyan', 'Yuyan', 'Artist', 'https://twitter.com/fnf_yuyan', '944000'],
+			['D', 'D', 'Artist', 'https://space.bilibili.com/1645840413/dynamic', 'FFFFFF'],
 			['Kris 121', 'Kris', 'Composer', 'https://twitter.com/KRIS121121121', '8F111F'],
 			//-------------------------
 			['Psych Engine Team'],
