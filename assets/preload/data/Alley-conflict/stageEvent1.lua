@@ -19,7 +19,7 @@ function onBeatHit()
 
         cameraShake('camGame',.001, secPerBeat*8)
         doTweenAlpha('blackStageA', 'blackStage', 0.4, secPerBeat*8,'cubeIn')
-        doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*8,'cubeIn')
+        --doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*8,'cubeIn')
     end
 
     if curBeat ==12 then
@@ -32,7 +32,7 @@ function onBeatHit()
 
     if curBeat == 48 then
         doTweenAlpha('blackStageA', 'blackStage', 0.2, secPerBeat*4,'cubeIn')
-        doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*4,'cubeIn')
+        --doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*4,'cubeIn')
 
         doTweenZoom('camGameZoom', 'camGame', .55, secPerBeat*4,'cubeOut')
     end
@@ -44,7 +44,7 @@ function onBeatHit()
     if curBeat == 80 then
         cameraFlash('camgame', 'E9E9E9', secPerBeat,true)
         doTweenAlpha('blackStageA', 'blackStage', 0, 0.0001,'cubeIn')
-        doTweenColor('gfC', 'gf', 'FFFFFF', 0.0001,'cubeIn')
+        --doTweenColor('gfC', 'gf', 'FFFFFF', 0.0001,'cubeIn')
         doTweenZoom('camGameZoom', 'camGame', .55, secPerBeat*4,'cubeOut')
     end
 
@@ -52,21 +52,21 @@ function onBeatHit()
         
         cameraFlash('camgame', 'B0B0B0', secPerBeat*1.5,true)
         doTweenAlpha('blackStageA', 'blackStage', 0.2, secPerBeat*4,'cubeOut')
-        doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*4,'cubeOut')
+        --doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*4,'cubeOut')
         doTweenZoom('camGameZoom', 'camGame', .65, secPerBeat*4,'cubeOut')
     end
 
     if curBeat == 148 then
 
         doTweenAlpha('blackStageA', 'blackStage', 0.4, secPerBeat*60,'cubeIn')
-        doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*60,'cubeIn')
+        --doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*60,'cubeIn')
         doTweenZoom('camGameZoom', 'camGame', .8, secPerBeat*60,'cubeIn')
     end
 
     if curBeat == 208 then
         cameraFlash('camgame', 'E9E9E9', secPerBeat,true)
         doTweenAlpha('blackStageA', 'blackStage', 0, 0.0001,'cubeOut')
-        doTweenColor('gfC', 'gf', 'FFFFFF', 0.0001,'cubeOut')
+        --doTweenColor('gfC', 'gf', 'FFFFFF', 0.0001,'cubeOut')
         doTweenZoom('camGameZoom', 'camGame', .55, secPerBeat*2,'cubeOut')
     end
 

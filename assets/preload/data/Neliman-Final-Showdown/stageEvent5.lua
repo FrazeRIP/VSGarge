@@ -2,9 +2,6 @@ local secPerBeat=0
 
 function onCreatePost()
 	secPerBeat = 60/curBpm
-	doTweenAlpha('blackStageA2', 'blackStage', 0.2, .0001,'cubeOut')
-	cameraShake('camHUD', 0.0018, secPerBeat*452)
-	cameraShake('camGame', 0.0018, secPerBeat*452)
 end
 
 
@@ -44,7 +41,7 @@ function onBeatHit()
 
 	if curBeat == 128 then
         cameraFlash('camgame', 'E9E9E9', secPerBeat*1.5,true)
-		doTweenAlpha('blackStageA2', 'blackStage', 0.3, secPerBeat*2,'cubeIn')
+		doTweenAlpha('blackStageA2', 'blackStage', 0, secPerBeat*2,'cubeIn')
 		doTweenZoom('camGameZoom', 'camGame', .85, secPerBeat*4,'cubeIn')
 	end
 
@@ -100,9 +97,9 @@ function onBeatHit()
 	if curBeat == 328 then
         doTweenColor('gfC', 'gf', '8F8F8F', secPerBeat*2,'cubeIn')
 		doTweenZoom('camGameZoom', 'camGame', .9, secPerBeat*2,'cubeOut')
-		doTweenAlpha('blackStageA2', 'blackStage', 0.8, secPerBeat*2,'cubeOut')
-		cameraShake('camHUD', 0.0022, secPerBeat*64)
-		cameraShake('camGame', 0.0022, secPerBeat*64)
+		doTweenAlpha('blackStageA2', 'blackStage', 0.6, secPerBeat*2,'cubeOut')
+		cameraShake('camHUD', 0.0015, secPerBeat*64)
+		cameraShake('camGame', 0.0015, secPerBeat*64)
 	end
 
 
@@ -123,9 +120,8 @@ function onBeatHit()
 		doTweenZoom('camGameZoom', 'camGame', .65, secPerBeat*32,'cubeOut')
 		doTweenAlpha('adfadfads', 'camHUD', 0, secPerBeat*16,'cubeOut')
 		doTweenAlpha('blackStageA2', 'blackStage', 0, secPerBeat*4,'cubeIn')
+        doTweenColor('gfC', 'gf', 'FFFFFF', secPerBeat*4,'cubeIn')
 	end
-
-
 end
 
 

@@ -18,12 +18,12 @@ local del = 0;
 local del2 = 0;
 
 function onCreate()
-	makeAnimatedLuaSprite('A', 'stage/neliman/Guest/guestA', -400, 230);
+	makeAnimatedLuaSprite('A', 'stage/neliman/Guest/guestA', -400, 240);
 	addAnimationByPrefix('A','guestA','guestA',22,true);	
 	scaleObject('A', 0.7, 0.7);
-	setScrollFactor('A', 0.88, 0.9)
+	setScrollFactor('A', 0.88, 1)
 
-	makeAnimatedLuaSprite('B', 'stage/neliman/Guest/guestB', 450, 350);
+	makeAnimatedLuaSprite('B', 'stage/neliman/Guest/guestB', 450, 360);
 	addAnimationByPrefix('B','guestB','guestB',22,true);	
 	scaleObject('B', 0.7, 0.7);
 	setScrollFactor('B', 0.9, 1)

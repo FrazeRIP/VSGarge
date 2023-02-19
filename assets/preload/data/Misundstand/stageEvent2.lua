@@ -50,8 +50,8 @@ function onBeatHit()
     end
 
     if curBeat == 48 then
-        doTweenAlpha('blackStageA', 'blackStage', 0.4, secPerBeat*16,'cubeIn')
-        doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*16,'cubeIn')
+        doTweenAlpha('blackStageA', 'blackStage', 0.3, secPerBeat*16,'cubeIn')
+        --doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*16,'cubeIn')
         doTweenZoom('camGameZoom', 'camGame',.75,secPerBeat*16,'cubeIn')
     end
 
@@ -61,14 +61,14 @@ function onBeatHit()
         
         doTweenZoom('camGameZoom', 'camGame',.6,secPerBeat*2,'cubeOut')
         doTweenAlpha('blackStageA', 'blackStage', 0.2, secPerBeat*2,'cubeOut')
-        doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*2,'cubeOut')
+       -- doTweenColor('gfC', 'gf', 'EBEBEB', secPerBeat*2,'cubeOut')
     end
 
     if curBeat == 112 then
         cameraFlash('camgame', 'E9E9E9', secPerBeat*1.5,true)
         doTweenZoom('camGameZoom', 'camGame',.7,secPerBeat*2,'cubeOut')
-        doTweenAlpha('blackStageA', 'blackStage', 0.6, secPerBeat*2,'cubeOut')
-        doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*2,'cubeOut')
+        doTweenAlpha('blackStageA', 'blackStage', 0.4, secPerBeat*2,'cubeOut')
+        --doTweenColor('gfC', 'gf', 'B8B8B8', secPerBeat*2,'cubeOut')
     end
 
     if curBeat == 160 then
@@ -95,13 +95,13 @@ function onBeatHit()
     if curBeat == 176 then
         cameraFlash('camgame', 'E9E9E9', secPerBeat*1.5,true)
         
-        doTweenAlpha('blackStageA', 'blackStage', 0.7, 0.0001,'cubeIn')
+        doTweenAlpha('blackStageA', 'blackStage', 0.4, 0.0001,'cubeIn')
         doTweenZoom('camGameZoom', 'camGame',.6,secPerBeat*2,'cubeOut')
     end
 
     if curBeat == 208 then
 
-        doTweenAlpha('blackStageA', 'blackStage', 0.4, secPerBeat*2,'cubeOut')
+        doTweenAlpha('blackStageA', 'blackStage', 0.0, secPerBeat*2,'cubeOut')
     end
 
     if curBeat == 272 then

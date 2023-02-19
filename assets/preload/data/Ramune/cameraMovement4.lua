@@ -110,11 +110,7 @@ end
 
 function onBeatHit( ... )
     if curBeat == 36 then
-        isTogether = true
-    end
-
-    if curBeat == 40 then
-        isTogether = true
+        isTogether = false
     end
 
     if curBeat == 52 then
