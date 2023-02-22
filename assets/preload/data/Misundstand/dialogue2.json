@@ -99,10 +99,34 @@
       {
         "sound": "",
         "speed": 0.05,
-        "portrait": "Gk_Dialogue",
+        "portrait": "Ec_Dialogue",
         "boxState": "normal",
-        "expression": "Gk_H",
-        "text": "扎马尾那个叫伊斯，粉头发那个叫佩克。\n留狼尾那个叫阿比斯，还有绿渐变的那个叫徳鄂阿多！"
+        "expression": "Ec_E",
+        "text": "'扎马尾那个叫伊斯，'"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Pk_Dialogue",
+        "boxState": "normal",
+        "expression": "Pk_A",
+        "text": "'粉头发那个叫佩克。'"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Ab_Dialogue",
+        "boxState": "normal",
+        "expression": "Ab_C",
+        "text": "'留狼尾那个叫阿比斯，'"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "De_Dialogue",
+        "boxState": "normal",
+        "expression": "De_D",
+        "text": "'还有绿渐变的那个叫徳鄂阿多！'"
       },
       {
         "sound": "",

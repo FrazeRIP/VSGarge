@@ -676,7 +676,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	}
 
 	var font = Paths.font("vcr.ttf");
-	var textSounds = FlxG.sound.load(Paths.sound('scrollMenu'));
+	var textSounds = FlxG.sound.load(Paths.sound('tick'));
 
 	function initializeText(x:Float, y:Float, width:Int, size:Int, content:String):FlxTypeText
 	{

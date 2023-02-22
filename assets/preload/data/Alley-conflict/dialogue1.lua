@@ -45,30 +45,27 @@ function onNextDialogue(count)
 		toggleDialogueUI(true,.75)
 	end
 
-	if count == 10 then
+	if count == 11 then
 		toggleDialogueUI(false,.25)
 		toggleCG('3',true,.75)
 	end
 
-	if count == 11 then
+	if count == 12 then
 		toggleDialogueUI(true,.75)
 	end
 	
-	if count == 18 then
+	if count == 19 then
 		toggleDialogueUI(false,.25)
 		toggleCG('4',true,.75)
 	end
 
-	if count == 19 then
+	if count == 20 then
 		toggleDialogueUI(true,.75)
 	end
 	
-	if count == 24 then
+	if count == 25 then
 		toggleCG('0',true,.75)
 	end
-
-
-
 end
 
 function onSkipDialogue(count)

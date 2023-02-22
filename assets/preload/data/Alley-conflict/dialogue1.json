@@ -62,7 +62,15 @@
         "portrait": "Empty",
         "boxState": "normal",
         "expression": "Empty",
-        "text": "大家早上好！最近拉普尼市多次发生抢劫，恶意伤人等事件。\n据调查，犯罪的人是一个五人团体，也请大家这段时间不要出门，保护好自己。\n那么，接下来——"
+        "text": "大家早上好！\n最近拉普尼市多次发生抢劫，恶意伤人等事件。"
+      },
+      {
+        "sound": "",
+        "speed": 0.05,
+        "portrait": "Empty",
+        "boxState": "normal",
+        "expression": "Empty",
+        "text": "据调查，犯罪的人是一个五人团体，也请大家这段时间不要出门，保护好自己。\n那么，接下来——"
       },
       {
         "sound": "",
@@ -134,7 +142,7 @@
         "boxState": "normal",
         "portrait": "Gf_Dialogue",
         "expression": "Gf_B",
-        "text": "要不然.....咱们走吧....？"
+        "text": "要不然...\n咱们走吧......？"
       },
       {
         "sound": "",

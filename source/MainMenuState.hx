@@ -57,10 +57,13 @@ class MainMenuState extends MusicBeatState
 	var leftUI:FlxSprite;
 	var buttonUI:FlxSprite;
 
+	var canSkip:Bool = false;
+
 	//------------------
 
 	override function create()
 	{
+		canSkip = false;
 		transOut = new TransitionData(TransitionType.FADE, FlxColor.BLACK, .2, new FlxPoint(-1, 0));
 
 		#if MODS_ALLOWED Paths.pushGlobalMods(); #end
@@ -152,7 +155,15 @@ class MainMenuState extends MusicBeatState
 		buttonUI.updateHitbox();
 		buttonGroup.add(buttonUI);
 
-		FlxTween.tween(buttonGroup, {x: 0}, 1, {ease: FlxEase.cubeOut, startDelay: .1});
+		FlxTween.tween(buttonGroup, {x: 0}, 1, {
+			ease: FlxEase.cubeOut,
+			startDelay: .1,
+			onComplete: function(twn:FlxTween)
+			{
+				canSkip = true;
+			}
+		});
+
 		//------------------
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
@@ -261,7 +272,7 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-		if (!selectedSomethin)
+		if (canSkip && !selectedSomethin)
 		{
 			if (controls.UI_UP_P)
 			{
