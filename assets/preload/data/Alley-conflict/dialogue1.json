@@ -14,7 +14,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_I",
-        "text": "今天天气真不错呢~~！"
+        "text": "Ah, what a nice day today~!"
       },
       {
         "sound": "",
@@ -22,7 +22,7 @@
         "boxState": "normal",
         "portrait": "Gf_Dialogue",
         "expression": "Gf_G",
-        "text": "是啊！不过大街上怎么没有人呢？"
+        "text": "Yeah!\nBut why there's nobody outside?"
       },
       {
         "sound": "",
@@ -30,7 +30,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_H",
-        "text": "欸，好像确实是耶。"
+        "text": "Hmm, that's weird."
       },
       {
         "sound": "",
@@ -38,7 +38,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_D",
-        "text": "好可惜，天气明明那么好..."
+        "text": "What a pity, such fine weather..."
       },
       {
         "sound": "",
@@ -46,7 +46,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_C",
-        "text": "嗯？新闻？"
+        "text": "Um? News?"
       },
       {
         "sound": "",
@@ -62,7 +62,7 @@
         "portrait": "Empty",
         "boxState": "normal",
         "expression": "Empty",
-        "text": "大家早上好！\n最近拉普尼市多次发生抢劫，恶意伤人等事件。"
+        "text": "Breaking news!\nThere have been multiple violence and robberies happening recently in Rapuni city."
       },
       {
         "sound": "",
@@ -70,7 +70,7 @@
         "portrait": "Empty",
         "boxState": "normal",
         "expression": "Empty",
-        "text": "据调查，犯罪的人是一个五人团体，也请大家这段时间不要出门，保护好自己。\n那么，接下来——"
+        "text": "According to the report,\nthe criminals were a group of five.\nPlease stay inside and be safe. \nNext report......"
       },
       {
         "sound": "",
@@ -78,7 +78,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",
-        "text": "....怪不得！！\n等一下，那边的巷子里是不是有人？"
+        "text": "And that's why!\nWait, did you see anyone in that alley?"
       },
       {
         "sound": "",
@@ -86,7 +86,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_E",
-        "text": "去看一看吧？"
+        "text": "Let's go take a look?"
       },
       {
         "sound": "",
@@ -102,7 +102,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_A",
-        "text": ".....这样啊？"
+        "text": ".....this is it?"
       },
       {
         "sound": "",
@@ -110,7 +110,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_A",
-        "text": "我倒觉得还差点什么."
+        "text": "I feel like something is still missing."
       },
       {
         "sound": "",
@@ -118,7 +118,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_A",
-        "text": "欸啊，空罐子就直接扔掉吧？\n你们俩别玩了....."
+        "text": "You two stop playing!\nThrow that empty can away already!"
       },
       {
         "sound": "",
@@ -126,7 +126,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_B",
-        "text": "扔掉就扔掉吧....."
+        "text": "Okay, whatever..."
       },
       {
         "sound": "",
@@ -134,7 +134,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_C",
-        "text": "怎么办啊？"
+        "text": "What we gonna do now?"
       },
       {
         "sound": "",
@@ -142,7 +142,7 @@
         "boxState": "normal",
         "portrait": "Gf_Dialogue",
         "expression": "Gf_B",
-        "text": "要不然...\n咱们走吧......？"
+        "text": "Maybe...\nWe should leave...?"
       },
       {
         "sound": "",
@@ -150,7 +150,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_A",
-        "text": "啊，你们看，那边有人来了唉！！"
+        "text": "Look, there's someone coming!"
       },
       {
         "sound": "",
@@ -166,7 +166,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_B",
-        "text": "啊？还有人啊？"
+        "text": "Huh?\nIs there anyone else in here?"
       },
       {
         "sound": "",
@@ -174,7 +174,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_E",
-        "text": "(被发现了...."
+        "text": "(They found us..."
       },
       {
         "sound": "",
@@ -182,7 +182,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",
-        "text": "喂喂！！\n你们不要再继续这样下去了...！"
+        "text": "Hey!\nYou guys need to stop doing that!"
       },
       {
         "sound": "",
@@ -190,7 +190,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_C",
-        "text": "哈？你说什么呢小子？"
+        "text": "What did you say, Kid?"
       },
       {
         "sound": "",
@@ -198,7 +198,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_A",
-        "text": ".......？"
+        "text": ".......?"
       },
       {
         "sound": "",
@@ -206,7 +206,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",
-        "text": "还能说什么啊，你们就是那个五人犯罪团伙吧...？？\n不要伤害我们啊！不然我就报警了！"
+        "text": "You guys are the criminals on the news right?\nDon't get any closer or I will call the police!"
       },
       {
         "sound": "",
@@ -214,7 +214,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_B",
-        "text": "啊哈哈....你是不是误会些什么了....\n小朋友？"
+        "text": "Well...\nSomething must go wrong here, right?"
       },
       {
         "sound": "",
@@ -222,7 +222,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_B",
-        "text": "我们是不是摊上事了？"
+        "text": "Are we in trouble?"
       },
       {
         "sound": "",
@@ -238,7 +238,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_D",
-        "text": "我来解释一下啊！\n首先，我们只是出来玩，然后呢...."
+        "text": "Let me explain this really quick.\nWe're just chilling over here, and..."
       },
       {
         "sound": "",
@@ -246,7 +246,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_C",
-        "text": "等下，我在紧张什么...."
+        "text": "Wait...\nWhy I'm being so nerovus..."
       },
       {
         "sound": "",
@@ -254,7 +254,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",
-        "text": "....来对决吧！\n用RAP来解决！恶人们！！"
+        "text": "...All right criminals!\nLet's get this over with RAP battles!"
       },
       {
         "sound": "",
@@ -262,7 +262,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_I",
-        "text": "你怎么什么时候都在用这招..."
+        "text": "Why does it always end up like this..."
       },
       {
         "sound": "",
@@ -270,7 +270,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_C",
-        "text": "啊？什么，什么是RAP啊？"
+        "text": "Wait, what?\nWhat is RAP battle?"
       },
       {
         "sound": "",
@@ -278,7 +278,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_D",
-        "text": "就是，嗯，一种很新对战形式吧。"
+        "text": "Well, emmm...\nA new way to duel I guess?"
       },
       {
         "sound": "",
@@ -286,7 +286,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_D",
-        "text": "昂，所以你们有谁会唱歌啊？\n我倒挺想看你们和他唱的。"
+        "text": "So, who know how to sing?\nI would like to see you guys rap with him."
       },
       {
         "sound": "",
@@ -294,7 +294,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_D",
-        "text": "...让他来吧。"
+        "text": "Garge can do it."
       },
       {
         "sound": "",
@@ -302,7 +302,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_C",
-        "text": "我也觉得加拉能行！\n加油呀———！！"
+        "text": "I also believe in Garge!\nYou can do this!"
       },
       {
         "sound": "",
@@ -310,7 +310,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_E",
-        "text": "好啊，我奉陪！"
+        "text": "Okay, I'm in!"
       }
     ]
   }

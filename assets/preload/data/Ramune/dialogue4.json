@@ -6,7 +6,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_D",
-        "text": "我累了啊...."
+        "text": "I'm burned out..."
       },
       {
         "sound": "",
@@ -14,7 +14,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_E",
-        "text": "歇一歇吧，加拉"
+        "text": "Take a break, Garge"
       },
       {
         "sound": "",
@@ -30,7 +30,7 @@
         "portrait": "Empty",
         "boxState": "normal",
         "expression": "Empty",
-        "text": "哥哥姐姐好！\n免费报纸，送给你们看咯!!"
+        "text": "Hey guys!\nFree newspaper delivery!"
       },
       {
         "sound": "",
@@ -54,7 +54,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_C",
-        "text": "欸？"
+        "text": "Huh?\nThe criminals were caught?"
       },
       {
         "sound": "",
@@ -70,7 +70,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_C",
-        "text": "啊...啊啊！"
+        "text": "Ah...\nAHHHHHHHH....!"
       },
       {
         "sound": "",
@@ -78,7 +78,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_C",
-        "text": "对不起啊！我误会你们了！"
+        "text": "I'm sorry!\nI've misunderstood you guys the whole time!"
       },
       {
         "sound": "",
@@ -86,7 +86,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_F",
-        "text": "嘁，早就说是误会了..."
+        "text": "Tsk...\nI already told you..."
       },
       {
         "sound": "",
@@ -94,7 +94,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_E",
-        "text": "不过也没关系其实"
+        "text": "But it doesn't matter now."
       },
       {
         "sound": "",
@@ -102,7 +102,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_C",
-        "text": "哎呀！！那么和好了就做个朋友吧！"
+        "text": "Since we're good, let's be friends shall we?"
       },
       {
         "sound": "",
@@ -110,7 +110,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_E",
-        "text": "！！新朋友"
+        "text": "New friends!"
       },
       {
         "sound": "",
@@ -118,7 +118,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_A",
-        "text": "蛮好的"
+        "text": "Pretty good."
       },
       {
         "sound": "",
@@ -126,7 +126,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_J",
-        "text": "等一下啊？？"
+        "text": "Hold on a sec."
       },
       {
         "sound": "",
@@ -134,7 +134,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_H",
-        "text": "你又怎么了"
+        "text": "What's the matter again?"
       },
       {
         "sound": "",
@@ -142,7 +142,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_A",
-        "text": "我..."
+        "text": "I..."
       },
       {
         "sound": "",
@@ -150,7 +150,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_F",
-        "text": "我们来场最后的RAP对决吧？bf！！"
+        "text": "Let's have a final rap battle, Boyfriend!"
       },
       {
         "sound": "",
@@ -158,7 +158,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_F",
-        "text": "跟你说唱真的很有意思！\n既然都已经是朋友了，那么...！"
+        "text": "It is so much fun to rap with you!\nSince we are already friends, so let's..."
       },
       {
         "sound": "",
@@ -166,7 +166,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_B",
-        "text": "（唱嗨了..."
+        "text": "(He's really hyped..."
       },
       {
         "sound": "",
@@ -174,7 +174,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_J",
-        "text": "来吧！这是决战！！"
+        "text": "C'mon!\nThis is the finale!"
       },
       {
         "sound": "",

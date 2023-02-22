@@ -81,16 +81,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['你好弱耶!', 0.2], // From 0% to 19%
-		['差劲！', 0.4], // From 20% to 39%
-		['坏！', 0.5], // From 40% to 49%
-		['啧啧啧...', 0.6], // From 50% to 59%
-		['嗯...', 0.69], // From 60% to 68%
-		['好！', 0.7], // 69%
-		['好棒！', 0.8], // From 70% to 79%
-		['超棒！', 0.9], // From 80% to 89%
-		['太酷了!', 1], // From 90% to 99%
-		['完美!!', 1] // The value on this one isn't used actually, since Perfect is always "1"
+		['You Suck!', 0.2], // From 0% to 19%
+		['Newbie', 0.4], // From 20% to 39%
+		['Bad', 0.5], // From 40% to 49%
+		['Zzz', 0.6], // From 50% to 59%
+		['Okay...', 0.69], // From 60% to 68%
+		['Good!', 0.7], // 69%
+		['Wonderful!', 0.8], // From 70% to 79%
+		['Marvelous!', 0.9], // From 80% to 89%
+		['Awesome', 1], // From 90% to 99%
+		['Perfect!!', 1] // The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	// event variables
@@ -1197,7 +1197,7 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "AI代打ing...", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "AUTOPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -2047,11 +2047,11 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
-		scoreTxt.text = '得分: '
+		scoreTxt.text = 'score: '
 			+ songScore
-			+ ' | 失误: '
+			+ ' | miss: '
 			+ songMisses
-			+ ' | 评分: '
+			+ ' | rank: '
 			+ ratingName
 			+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 

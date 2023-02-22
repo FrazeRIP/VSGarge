@@ -14,7 +14,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_E",
-        "text": "所以呢，我们并不是那个犯罪团伙...\n懂了吗？我们只是出来逛个街而已。"
+        "text": "So, we are not the crimials, got it?\nWe are just chilling out here."
       },
       {
         "sound": "",
@@ -22,7 +22,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_D",
-        "text": "不信，怎么感觉你们在找借口。"
+        "text": "Sounds like a excuse to me."
       },
       {
         "sound": "",
@@ -30,7 +30,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_B",
-        "text": "啊哈哈...."
+        "text": "C'mon..."
       },
       {
         "sound": "",
@@ -38,7 +38,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_C",
-        "text": "怎么办啊被冤枉了。"
+        "text": "It's going even worse..."
       },
       {
         "sound": "",
@@ -46,7 +46,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_B",
-        "text": "...我想回家。"
+        "text": "I wanna go home..."
       },
       {
         "sound": "",
@@ -54,7 +54,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_J",
-        "text": "唉我去你看伊斯手里提的那一大兜子就知道了啊。"
+        "text": "Oh god...\nTake a look inside his packet, and you will know we are innocent."
       },
       {
         "sound": "",
@@ -62,7 +62,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_B",
-        "text": "欸...说不定是你们抢的呢？"
+        "text": "Hard to say, maybe those are all stolen?"
       },
       {
         "sound": "",
@@ -70,7 +70,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_C",
-        "text": "？不是这小孩怎么回事啊"
+        "text": "Geeze, what's wrong with this kid?!"
       },
       {
         "sound": "",
@@ -86,7 +86,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_D",
-        "text": "...汽水都快没冰了"
+        "text": "My soda get warm out."
       },
       {
         "sound": "",
@@ -94,7 +94,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_B",
-        "text": "话说阿多现在几点了啊"
+        "text": "What time it is btw?"
       },
       {
         "sound": "",
@@ -102,7 +102,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_B",
-        "text": "呀我看一看啊..."
+        "text": "Let me see..."
       },
       {
         "sound": "",
@@ -110,7 +110,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_C",
-        "text": "六点四十五了！"
+        "text": "6:45 PM!"
       },
       {
         "sound": "",
@@ -118,7 +118,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_C",
-        "text": "啊，那也不早了。"
+        "text": "It's getting late."
       },
       {
         "sound": "",
@@ -126,7 +126,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_F",
-        "text": "你们是从中午唱到现在欸"
+        "text": "You two are rapping over the whole time!"
       },
       {
         "sound": "",
@@ -134,7 +134,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_E",
-        "text": "很有毅力！！"
+        "text": "Very persevering!"
       },
       {
         "sound": "",
@@ -142,7 +142,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_F",
-        "text": "你不要刚学个新词就乱用啊？？"
+        "text": "Stop using words that you don't know the meaning of it!"
       },
       {
         "sound": "",
@@ -150,7 +150,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_E",
-        "text": "...嗯"
+        "text": "Well..."
       },
       {
         "sound": "",
@@ -158,7 +158,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_H",
-        "text": "可是我还想唱耶？？"
+        "text": "But I up to another song?"
       },
       {
         "sound": "",
@@ -166,7 +166,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_H",
-        "text": "唱上瘾了是不"
+        "text": "Oh man he got addicted to rapping now."
       },
       {
         "sound": "",
@@ -174,7 +174,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_",
-        "text": "没关系啊！\n让他俩唱吧...只要不要唱到半夜"
+        "text": "Just keep them going.\nLet's hope it ends before midnight."
       },
       {
         "sound": "",
@@ -182,7 +182,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_",
-        "text": "那么...！"
+        "text": "There we go!"
       }
     ]
   }

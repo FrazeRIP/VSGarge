@@ -14,7 +14,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_I",
-        "text": "哈啊...！\n怎么样！还不赖吧？"
+        "text": "Puff*\nHow's that?"
       },
       {
         "sound": "",
@@ -22,7 +22,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_E",
-        "text": "...不错。"
+        "text": "Not bad..."
       },
       {
         "sound": "",
@@ -30,7 +30,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_A",
-        "text": "我去，你牛O啊加尔吉！"
+        "text": "Holy Sh!t Garge! You nailed it!"
       },
       {
         "sound": "",
@@ -38,7 +38,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_D",
-        "text": "好听的！"
+        "text": "Mavelous!"
       },
       {
         "sound": "",
@@ -46,7 +46,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_D",
-        "text": "我就说小加拉能行吧—！！"
+        "text": "I told you Garge is good at this!"
       },
       {
         "sound": "",
@@ -54,7 +54,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_A",
-        "text": "哼哼...\n没想到你唱功那么好！"
+        "text": "Hehe...\nDidn't expect you to be that good!"
       },
       {
         "sound": "",
@@ -62,7 +62,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_G",
-        "text": "是吧是吧？？"
+        "text": "Now you got it."
       },
       {
         "sound": "",
@@ -70,7 +70,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_J",
-        "text": "来个自我介绍吧，你们五个！"
+        "text": "All Right!\nHow about some self-introduction, you five?"
       },
       {
         "sound": "",
@@ -78,7 +78,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_E",
-        "text": "（你一开始不是挺慌的吗...."
+        "text": "(I thought you were in a panic..."
       },
       {
         "sound": "",
@@ -86,7 +86,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_C",
-        "text": "额啊...好？"
+        "text": "Ugh...Okay?"
       },
       {
         "sound": "",
@@ -94,7 +94,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_H",
-        "text": "我叫加尔吉！旁边这四位是我的好兄弟！"
+        "text": "I'm Garge! Those are my best buddies!"
       },
       {
         "sound": "",
@@ -102,7 +102,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_E",
-        "text": "'扎马尾那个叫伊斯，'"
+        "text": "'That ponytail is Ecss.'"
       },
       {
         "sound": "",
@@ -110,7 +110,7 @@
         "portrait": "Pk_Dialogue",
         "boxState": "normal",
         "expression": "Pk_A",
-        "text": "'粉头发那个叫佩克。'"
+        "text": "'The pink hair one is Pink.'"
       },
       {
         "sound": "",
@@ -118,7 +118,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_C",
-        "text": "'留狼尾那个叫阿比斯，'"
+        "text": "'The one with the wolf tail is Abyss'"
       },
       {
         "sound": "",
@@ -126,7 +126,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_D",
-        "text": "'还有绿渐变的那个叫徳鄂阿多！'"
+        "text": "'And the fancy green hair guy is called Deoado!'"
       },
       {
         "sound": "",
@@ -134,7 +134,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_C",
-        "text": "叫我渊就好——那你们呢？"
+        "text": "Ab is fine, short for Abyss.\nWhat about you guys?"
       },
       {
         "sound": "",
@@ -142,7 +142,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_G",
-        "text": "嗨呀，我是Boyfriend！\n以及这位是Girlfriend！"
+        "text": "My name is Boyfriend and this is my gf Girlfriend!"
       },
       {
         "sound": "",
@@ -150,7 +150,7 @@
         "portrait": "Ec_Dialogue",
         "boxState": "normal",
         "expression": "Ec_D",
-        "text": "好怪的名字。"
+        "text": "Such a weird name..."
       },
       {
         "sound": "",
@@ -158,7 +158,7 @@
         "portrait": "De_Dialogue",
         "boxState": "normal",
         "expression": "De_D",
-        "text": "那么误会解除啦？"
+        "text": "So we all cool?"
       },
       {
         "sound": "",
@@ -166,7 +166,7 @@
         "portrait": "Ab_Dialogue",
         "boxState": "normal",
         "expression": "Ab_F",
-        "text": "嗯，看起来还没。"
+        "text": "Well, I guess no."
       },
       {
         "sound": "",
@@ -174,7 +174,7 @@
         "portrait": "Gf_Dialogue",
         "boxState": "normal",
         "expression": "Gf_B",
-        "text": "你们也没有敌意嘛...\n啊...那么，我们是不是该--"
+        "text": "Well, you guys don't seem to be hostile...\nShould we just lea..."
       },
       {
         "sound": "",
@@ -182,7 +182,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_J",
-        "text": "进行下一首歌了？？！"
+        "text": "Hit the next song?"
       },
       {
         "sound": "",
@@ -190,7 +190,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_C",
-        "text": "啊？还唱啊？"
+        "text": "Huh? A encore?"
       },
       {
         "sound": "",
@@ -198,7 +198,7 @@
         "portrait": "Bf_Dialogue",
         "boxState": "normal",
         "expression": "Bf_I",
-        "text": "唱啊！"
+        "text": "Exactly!"
       },
       {
         "sound": "",
@@ -206,7 +206,7 @@
         "portrait": "Gk_Dialogue",
         "boxState": "normal",
         "expression": "Gk_E",
-        "text": "...好吧。"
+        "text": "Okay..."
       }
 
     ]
