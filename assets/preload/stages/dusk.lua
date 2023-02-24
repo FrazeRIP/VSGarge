@@ -22,13 +22,9 @@ function onCreate()
 makeLuaSprite('A', 'stage/dusk/Layer8', -1500, -500);
 	scaleObject('A', 1, 1);
 	setScrollFactor('A', 0.7, 1);
-	
-	makeLuaSprite('B', 'stage/dusk/Layer7', -1700, -700);
-	scaleObject('B', 1.2, 1.2);
-	setScrollFactor('B', 0.8, 1);
 
-	makeLuaSprite('C', 'stage/dusk/Layer6', -1700, -700);
-	scaleObject('C', 1.2, 1.2);
+	makeLuaSprite('C', 'stage/dusk/Layer6', -1800, -250);
+	scaleObject('C', 0.6, 0.7);
 	setScrollFactor('C', 0.9, 1);
 	
 	makeLuaSprite('D', 'stage/dusk/Layer5', -2300, -500);
@@ -39,8 +35,8 @@ makeLuaSprite('A', 'stage/dusk/Layer8', -1500, -500);
 	scaleObject('E', 1, 1);
 	setScrollFactor('E', 1.1, 1)
 
-	makeLuaSprite('F', 'stage/dusk/Layer3', -1800, -500)
-	scaleObject('F', 1, 1);
+	makeLuaSprite('F', 'stage/dusk/Layer3', -1730, -360)
+	scaleObject('F', .85, .85);
 	setScrollFactor('F', 0.95, 1)
 
 	makeLuaSprite('G', 'stage/dusk/Layer2', -2400, -500)
@@ -78,7 +74,6 @@ makeLuaSprite('A', 'stage/dusk/Layer8', -1500, -500);
 	
 
 	addLuaSprite('A', false)
-	addLuaSprite('B', false)
 	addLuaSprite('C', false)
 	addLuaSprite('D', false)
 	addLuaSprite('E', false)

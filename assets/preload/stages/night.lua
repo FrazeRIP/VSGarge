@@ -23,15 +23,8 @@ makeLuaSprite('A', 'stage/night/Layer8', -1800, -500);
 	scaleObject('A', 0.7, 0.7);
 	setScrollFactor('A', 0.7, 1);
 	
-	makeLuaSprite('B', 'stage/night/Layer7', -1500, -250);
-	scaleObject('B', 0.7, 0.7);
-	setScrollFactor('B', 0.8, 1);
 
-	makeLuaSprite('CC', 'stage/night/Layer66', -2000, -250);
-	scaleObject('CC', 0.6, 0.7);
-	setScrollFactor('CC', 0.9, 1);
-
-	makeLuaSprite('C', 'stage/night/Layer6', -1500, -250);
+	makeLuaSprite('C', 'stage/night/Layer6',-1800, -250);
 	scaleObject('C', 0.6, 0.7);
 	setScrollFactor('C', 0.9, 1);
 
@@ -43,8 +36,8 @@ makeLuaSprite('A', 'stage/night/Layer8', -1800, -500);
 	scaleObject('E', 1, 1);
 	setScrollFactor('E', 1.1, 1)
 
-	makeLuaSprite('F', 'stage/night/Layer3', -1800, -500)
-	scaleObject('F', 1, 1);
+	makeLuaSprite('F', 'stage/night/Layer3', -1730, -360)
+	scaleObject('F', .85, .85);
 	setScrollFactor('F', 0.95, 1)
 
 	makeAnimatedLuaSprite('G', 'stage/night/Layer2', -2400, -500);
@@ -86,9 +79,7 @@ makeLuaSprite('A', 'stage/night/Layer8', -1800, -500);
 	setScrollFactor('guest', 1, 0.5)
 
 	addLuaSprite('A', false)
-	addLuaSprite('B', false)
 	addLuaSprite('C', false)
-	addLuaSprite('CC', false)
 	addLuaSprite('D', false)
 	addLuaSprite('E', false)
 	addLuaSprite('F', false)
